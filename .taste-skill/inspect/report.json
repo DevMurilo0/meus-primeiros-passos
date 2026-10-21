@@ -1,0 +1,1670 @@
+{
+ "url": "http://localhost:5173",
+ "at": "2026-10-21T22:46:36.542Z",
+ "allow": [
+  "few-pictures",
+  "eyebrow"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.45,
+    0.59,
+    0.73,
+    0.63,
+    0.49
+   ],
+   "motion": {
+    "elements": 30,
+    "css": 14,
+    "transitions": 16,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4439,
+     "screens": 4.9,
+     "words": 342,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 29,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Pequenos passos. Grandes descobertas.",
+     "words": 4,
+     "chars": 37,
+     "lines": 2,
+     "size": 85,
+     "vw": 5.9,
+     "font": "Fraunces",
+     "weight": 400,
+     "tracking": -0.04,
+     "leading": 1.08,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.53,
+     "top": 219,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Pequenos passos. Grandes descobertas.",
+     "words": 4,
+     "lines": 2,
+     "size": 85,
+     "font": "Fraunces"
+    },
+    "headings": [
+     {
+      "text": "Pequenos passos. Grandes descobertas.",
+      "words": 4,
+      "chars": 37,
+      "lines": 2,
+      "size": 85,
+      "vw": 5.9,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 219,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "O carinho de hoje. Os caminhos de amanhã.",
+      "words": 8,
+      "chars": 41,
+      "lines": 2,
+      "size": 51.8,
+      "vw": 3.6,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 1011,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Aprender é abrir possibilidades.",
+      "words": 4,
+      "chars": 32,
+      "lines": 2,
+      "size": 51.8,
+      "vw": 3.6,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 1377,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Imaginar",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 35,
+      "vw": 2.4,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.39,
+      "top": 1617,
+      "tag": "button",
+      "kind": "heading"
+     },
+     {
+      "text": "Explorar",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 35,
+      "vw": 2.4,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.39,
+      "top": 1822,
+      "tag": "button",
+      "kind": "heading"
+     },
+     {
+      "text": "Conviver",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 35,
+      "vw": 2.4,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.39,
+      "top": 1923,
+      "tag": "button",
+      "kind": "heading"
+     },
+     {
+      "text": "Cada fase, um novo passo.",
+      "words": 5,
+      "chars": 25,
+      "lines": 2,
+      "size": 42,
+      "vw": 2.9,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 2275,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Educação Infantil",
+      "words": 2,
+      "chars": 17,
+      "lines": 2,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.09,
+      "top": 2395,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Ensino Fundamental",
+      "words": 2,
+      "chars": 18,
+      "lines": 2,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.12,
+      "top": 2395,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Memórias que a gente leva junto.",
+      "words": 6,
+      "chars": 32,
+      "lines": 2,
+      "size": 43,
+      "vw": 3,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.3,
+      "top": 2915,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Antes do primeiro passo.",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 51.8,
+      "vw": 3.6,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 3428,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Vamos dar o próximo passo?",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 51,
+      "vw": 3.5,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.23,
+      "top": 3944,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 0.84,
+       "mono": false
+      },
+      {
+       "family": "Fraunces",
+       "share": 0.16,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      22,
+      30,
+      35,
+      42,
+      43,
+      51,
+      52,
+      85
+     ],
+     "sizeCount": 13,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 16,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.3
+     },
+     "measureChars": 77,
+     "max": {
+      "size": 85,
+      "vw": 5.9,
+      "font": "Fraunces",
+      "text": "Pequenos passos."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.04,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#faf8f1",
+     "bodyBgHsl": {
+      "h": 47,
+      "s": 0.47,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#214e41",
+       "top": 816,
+       "hsl": {
+        "h": 163,
+        "s": 0.41,
+        "l": 0.22
+       }
+      },
+      {
+       "color": "#f0eee3",
+       "top": 2180,
+       "hsl": {
+        "h": 51,
+        "s": 0.3,
+        "l": 0.92
+       }
+      },
+      {
+       "color": "#f1e5d1",
+       "top": 2786,
+       "hsl": {
+        "h": 38,
+        "s": 0.53,
+        "l": 0.88
+       }
+      },
+      {
+       "color": "#e5eadb",
+       "top": 3864,
+       "hsl": {
+        "h": 80,
+        "s": 0.26,
+        "l": 0.89
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#244d40",
+       "share": 0.55
+      },
+      {
+       "color": "#dde5d6",
+       "share": 0.09
+      },
+      {
+       "color": "#6b7465",
+       "share": 0.06
+      },
+      {
+       "color": "#faf8f1",
+       "share": 0.05
+      },
+      {
+       "color": "#56614e",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#214e41",
+      "hsl": {
+       "h": 163,
+       "s": 0.41,
+       "l": 0.22
+      },
+      "fg": "#faf8f1"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": 7,
+     "height": 49,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Portal do Professor",
+      "Conheça a escola"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 4,
+     "boxRadius": 99,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.24
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": false,
+     "height": 112,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "fraunces",
+     "manrope"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.53,
+    0.73,
+    0.73,
+    0.46,
+    0.5
+   ],
+   "motion": {
+    "elements": 30,
+    "css": 14,
+    "transitions": 16,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 4691,
+     "screens": 4.6,
+     "words": 335,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 29,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Pequenos passos. Grandes descobertas.",
+     "words": 4,
+     "chars": 37,
+     "lines": 2,
+     "size": 58.4,
+     "vw": 7.6,
+     "font": "Fraunces",
+     "weight": 400,
+     "tracking": -0.04,
+     "leading": 1.08,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 125,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Pequenos passos. Grandes descobertas.",
+     "words": 4,
+     "lines": 2,
+     "size": 58.4,
+     "font": "Fraunces"
+    },
+    "headings": [
+     {
+      "text": "Pequenos passos. Grandes descobertas.",
+      "words": 4,
+      "chars": 37,
+      "lines": 2,
+      "size": 58.4,
+      "vw": 7.6,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 125,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "O carinho de hoje. Os caminhos de amanhã.",
+      "words": 8,
+      "chars": 41,
+      "lines": 2,
+      "size": 42,
+      "vw": 5.5,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1211,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Aprender é abrir possibilidades.",
+      "words": 4,
+      "chars": 32,
+      "lines": 2,
+      "size": 37,
+      "vw": 4.8,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 1772,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Imaginar",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 29,
+      "vw": 3.8,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 1941,
+      "tag": "button",
+      "kind": "heading"
+     },
+     {
+      "text": "Explorar",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 29,
+      "vw": 3.8,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 2168,
+      "tag": "button",
+      "kind": "heading"
+     },
+     {
+      "text": "Conviver",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 29,
+      "vw": 3.8,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 2262,
+      "tag": "button",
+      "kind": "heading"
+     },
+     {
+      "text": "Cada fase, um novo passo.",
+      "words": 5,
+      "chars": 25,
+      "lines": 2,
+      "size": 37,
+      "vw": 4.8,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 2546,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Educação Infantil",
+      "words": 2,
+      "chars": 17,
+      "lines": 2,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.15,
+      "top": 2812,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Ensino Fundamental",
+      "words": 2,
+      "chars": 18,
+      "lines": 2,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.21,
+      "top": 2812,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Memórias que a gente leva junto.",
+      "words": 6,
+      "chars": 32,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.41,
+      "top": 3217,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Antes do primeiro passo.",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 37,
+      "vw": 4.8,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 3626,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Vamos dar o próximo passo?",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 4124,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 0.84,
+       "mono": false
+      },
+      {
+       "family": "Fraunces",
+       "share": 0.16,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      20,
+      28,
+      29,
+      32,
+      37,
+      40,
+      42,
+      58
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 16,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.3
+     },
+     "measureChars": 43,
+     "max": {
+      "size": 58.4,
+      "vw": 7.6,
+      "font": "Fraunces",
+      "text": "Pequenos passos."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.04,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#faf8f1",
+     "bodyBgHsl": {
+      "h": 47,
+      "s": 0.47,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#214e41",
+       "top": 1058,
+       "hsl": {
+        "h": 163,
+        "s": 0.41,
+        "l": 0.22
+       }
+      },
+      {
+       "color": "#f0eee3",
+       "top": 2445,
+       "hsl": {
+        "h": 51,
+        "s": 0.3,
+        "l": 0.92
+       }
+      },
+      {
+       "color": "#e5eadb",
+       "top": 4044,
+       "hsl": {
+        "h": 80,
+        "s": 0.26,
+        "l": 0.89
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#244d40",
+       "share": 0.54
+      },
+      {
+       "color": "#dde5d6",
+       "share": 0.09
+      },
+      {
+       "color": "#6b7465",
+       "share": 0.06
+      },
+      {
+       "color": "#faf8f1",
+       "share": 0.05
+      },
+      {
+       "color": "#56614e",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#214e41",
+      "hsl": {
+       "h": 163,
+       "s": 0.41,
+       "l": 0.22
+      },
+      "fg": "#faf8f1"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": 7,
+     "height": 49,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Portal do Professor",
+      "Conheça a escola"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 4,
+     "boxRadius": 99,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.36
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 90,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "fraunces",
+     "manrope"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.73,
+    0.8,
+    0.59,
+    0.91,
+    0.63,
+    0.61,
+    0.62
+   ],
+   "motion": {
+    "elements": 29,
+    "css": 14,
+    "transitions": 15,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 5165,
+     "screens": 6.1,
+     "words": 332,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 29,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Pequenos passos. Grandes descobertas.",
+     "words": 4,
+     "chars": 37,
+     "lines": 2,
+     "size": 33.9,
+     "vw": 8.7,
+     "font": "Fraunces",
+     "weight": 400,
+     "tracking": -0.04,
+     "leading": 1.16,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 115,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Pequenos passos. Grandes descobertas.",
+     "words": 4,
+     "lines": 2,
+     "size": 33.9,
+     "font": "Fraunces"
+    },
+    "headings": [
+     {
+      "text": "Pequenos passos. Grandes descobertas.",
+      "words": 4,
+      "chars": 37,
+      "lines": 2,
+      "size": 33.9,
+      "vw": 8.7,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 115,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "O carinho de hoje. Os caminhos de amanhã.",
+      "words": 8,
+      "chars": 41,
+      "lines": 2,
+      "size": 30.8,
+      "vw": 7.9,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 887,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Aprender é abrir possibilidades.",
+      "words": 4,
+      "chars": 32,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1435,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Imaginar",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2003,
+      "tag": "button",
+      "kind": "heading"
+     },
+     {
+      "text": "Explorar",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2221,
+      "tag": "button",
+      "kind": "heading"
+     },
+     {
+      "text": "Conviver",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2308,
+      "tag": "button",
+      "kind": "heading"
+     },
+     {
+      "text": "Cada fase, um novo passo.",
+      "words": 5,
+      "chars": 25,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2519,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Educação Infantil",
+      "words": 2,
+      "chars": 17,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 2855,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Ensino Fundamental",
+      "words": 2,
+      "chars": 18,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 2855,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Memórias que a gente leva junto.",
+      "words": 6,
+      "chars": 32,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 3402,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Antes do primeiro passo.",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3775,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Vamos dar o próximo passo?",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 39,
+      "vw": 10,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4467,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 0.84,
+       "mono": false
+      },
+      {
+       "family": "Fraunces",
+       "share": 0.16,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      20,
+      24,
+      30,
+      31,
+      32,
+      34,
+      39
+     ],
+     "sizeCount": 11,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 16,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.3
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 39,
+      "vw": 10,
+      "font": "Fraunces",
+      "text": "Vamos dar o"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.04,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Ilustração conceitual · imaginar",
+      "above": "Imaginar",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13,
+      "top": 1927
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#faf8f1",
+     "bodyBgHsl": {
+      "h": 47,
+      "s": 0.47,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#214e41",
+       "top": 771,
+       "hsl": {
+        "h": 163,
+        "s": 0.41,
+        "l": 0.22
+       }
+      },
+      {
+       "color": "#f0e0dd",
+       "top": 1662,
+       "hsl": {
+        "h": 9,
+        "s": 0.39,
+        "l": 0.9
+       }
+      },
+      {
+       "color": "#f0eee3",
+       "top": 2469,
+       "hsl": {
+        "h": 51,
+        "s": 0.3,
+        "l": 0.92
+       }
+      },
+      {
+       "color": "#f1e5d1",
+       "top": 3155,
+       "hsl": {
+        "h": 38,
+        "s": 0.53,
+        "l": 0.88
+       }
+      },
+      {
+       "color": "#e5eadb",
+       "top": 4336,
+       "hsl": {
+        "h": 80,
+        "s": 0.26,
+        "l": 0.89
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#244d40",
+       "share": 0.53
+      },
+      {
+       "color": "#dde5d6",
+       "share": 0.09
+      },
+      {
+       "color": "#6b7465",
+       "share": 0.06
+      },
+      {
+       "color": "#faf8f1",
+       "share": 0.05
+      },
+      {
+       "color": "#56614e",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#214e41",
+      "hsl": {
+       "h": 163,
+       "s": 0.41,
+       "l": 0.22
+      },
+      "fg": "#faf8f1"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 1,
+     "radius": 7,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Conheça a escola"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 4,
+     "boxRadius": 70,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.39
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 84,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "fraunces",
+     "manrope"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (page background #faf8f1, section #f0eee3, section #f1e5d1).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "13 different font sizes (13, 14, 15, 16, 17, 22, 30, 35, 42, 43, 51, 52, 85).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/murilo/Dev/andamento/escolaMPP/escola-meus-primeiros-passos/.taste-skill/inspect/desktop-fold.jpg",
+   "pages": [
+    "/home/murilo/Dev/andamento/escolaMPP/escola-meus-primeiros-passos/.taste-skill/inspect/desktop-page-01.jpg",
+    "/home/murilo/Dev/andamento/escolaMPP/escola-meus-primeiros-passos/.taste-skill/inspect/desktop-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/murilo/Dev/andamento/escolaMPP/escola-meus-primeiros-passos/.taste-skill/inspect/tablet-fold.jpg",
+   "pages": [
+    "/home/murilo/Dev/andamento/escolaMPP/escola-meus-primeiros-passos/.taste-skill/inspect/tablet-page-01.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/murilo/Dev/andamento/escolaMPP/escola-meus-primeiros-passos/.taste-skill/inspect/mobile-fold.jpg",
+   "pages": [
+    "/home/murilo/Dev/andamento/escolaMPP/escola-meus-primeiros-passos/.taste-skill/inspect/mobile-page-01.jpg"
+   ]
+  }
+ ]
+}

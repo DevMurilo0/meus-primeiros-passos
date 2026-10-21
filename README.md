@@ -1,0 +1,46 @@
+# Escola Meus Primeiros Passos
+
+Proposta comercial independente: site institucional e Portal do Professor demonstrativo. Não é o site oficial da instituição. React + TypeScript + Vite + BrowserRouter, sem dependência de backend.
+
+## Iniciar
+
+Node.js 22.18+ e npm:
+
+```bash
+npm install
+npm run dev
+```
+
+Abra http://localhost:5173. Portal: http://localhost:5173/portal. Clique em **Entrar na demonstração**. Não precisa de .env, Supabase, senha ou conta.
+
+```bash
+npm run typecheck
+npm run lint
+npm test
+npm run build
+npm run test:browser
+```
+
+Para testes de navegador, instale o Chromium com `npx playwright install chromium` caso ainda não exista. `PLAYWRIGHT_CHROMIUM_EXECUTABLE` permite indicar um navegador existente. `npm run preview` serve o build. Em hospedagem futura, configurar fallback SPA para `index.html` nas rotas do BrowserRouter; não houve deploy.
+
+## O que explorar
+
+- Institucional: hero ilustrado, narrativa, seletor de descobertas, etapas, comunidade, perguntas e contato pelo perfil informado.
+- Portal: painel com indicadores derivados dos fixtures, turmas e detalhes, pesquisa de alunos e modal individual, quatro períodos, notas editáveis com validação e média, chamada por data, atividades e criação/conclusão local.
+- Dados fictícios ficam em memória: salvar preserva durante a navegação; recarregar reinicia. Rascunhos não salvos devem ser salvos antes de trocar os filtros.
+- Menu mobile, atalhos, notificações ilustrativas, perfis, estados vazios, feedback e reinício da demonstração.
+
+## Organização
+
+`src/app`: rotas e proteção contra erros de renderização. `src/config`: conteúdo institucional. `src/components`: identidade, arte, movimento e diálogos. `src/features/demo`: fixtures e estado isolado. `src/pages`: apresentação. `src/shared/academic`: tipos e funções puras reaproveitados da base. `src/styles`: tokens e superfícies.
+
+A Escola Peralta foi lida como referência técnica e permaneceu intacta. Foram mantidos React/TypeScript/Vite/BrowserRouter, a separação por módulos e os tipos acadêmicos e funções puras de notas. Os componentes antigos de gestão eram acoplados aos serviços remotos; sua apresentação foi refeita para um provider em memória. Nenhum segredo, imagem, configuração de produção ou histórico Git foi copiado. As dependências foram instaladas novamente.
+
+## Dados, imagens e apresentação
+
+- [Validação de dados e imagens](docs/VALIDACAO_DADOS.md)
+- [Integrações pendentes](docs/INTEGRACOES_PENDENTES.md)
+- [Direção visual](DESIGN.md)
+- [Capturas desktop e mobile](docs/apresentacao/)
+
+Não foi possível obter fotos reais com autorização de uso. Ilustrações SVG autorais são identificadas como conceituais. Marca provisória. Fontes Fraunces e Manrope locais, licenciadas em OFL. Nenhum dado real de aluno ou professor.
