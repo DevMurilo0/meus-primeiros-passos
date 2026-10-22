@@ -1,10 +1,12 @@
 import { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowUpRight, ArrowDown, Menu, X, Plus, Minus, Pause, Play, Instagram } from 'lucide-react';
+import { ArrowUpRight, ArrowDown, Menu, X, Plus, Minus, Pause, Play, Instagram, MapPin, Navigation2, MoveUpRight, Heart } from 'lucide-react';
 import { Brand } from '../components/Brand';
 import { SiteMotion } from '../components/SiteMotion';
 import { SchoolPhoto } from '../components/SchoolPhoto';
 import { PhotoGallery } from '../components/PhotoGallery';
+import { ExplorePaths } from '../components/ExplorePaths';
+import { ReadingProgress } from '../components/ReadingProgress';
 import { Flower, PlaySticker, Trail } from '../components/PlayfulArt';
 import { school, schoolEditorial, questions } from '../config/school';
 import '../styles/home.css';
@@ -16,15 +18,15 @@ export default function Home() {
   const [paused, setPaused] = useState(false);
   const menuButton = useRef<HTMLButtonElement>(null);
   const selected = schoolEditorial.discoveries[discovery];
-  return <SiteMotion paused={paused}><div className="site">
+  return <SiteMotion paused={paused}><div className="site"><ReadingProgress/>
     <header className="site-header wrap">
       <Brand/>
-      <nav className="desktop-nav" aria-label="Navegação principal"><a href="#escola">Nossa escola</a><a href="#descobertas">Descobertas</a><a href="#momentos">Nossos momentos</a></nav>
+      <nav className="desktop-nav" aria-label="Navegação principal"><a href="#escola">Nossa escola</a><a href="#descobertas">Descobertas</a><a href="#momentos">Nossos momentos</a><a href="#localizacao">Onde estamos</a></nav>
       <Link className="portal-link" to="/portal">Portal do Professor <ArrowUpRight size={17}/></Link>
       <button ref={menuButton} className="icon-btn menu-toggle" aria-label={menu ? 'Fechar menu' : 'Abrir menu'} aria-expanded={menu} aria-controls="mobile-nav" onClick={() => setMenu(!menu)}>{menu ? <X/> : <Menu/>}</button>
     </header>
     {menu && <nav id="mobile-nav" className="mobile-nav" aria-label="Navegação mobile" onKeyDown={e => { if (e.key === 'Escape') { setMenu(false); menuButton.current?.focus(); } }}>
-      {[["Nossa escola", "#escola"], ["Descobertas", "#descobertas"], ["Nossos momentos", "#momentos"], ["Vamos conversar", "#contato"]].map(([label,url]) => <a key={url} href={url} onClick={() => setMenu(false)}>{label}<ArrowUpRight/></a>)}<Link to="/portal">Portal do Professor <ArrowUpRight/></Link>
+      {[["Nossa escola", "#escola"], ["Descobertas", "#descobertas"], ["Nossos momentos", "#momentos"], ["Onde estamos", "#localizacao"], ["Vamos conversar", "#contato"]].map(([label,url]) => <a key={url} href={url} onClick={() => setMenu(false)}>{label}<ArrowUpRight/></a>)}<Link to="/portal">Portal do Professor <ArrowUpRight/></Link>
     </nav>}
     <main id="main">
       <section className="hero wrap">
@@ -62,9 +64,28 @@ export default function Home() {
       <section className="stages-section"><div className="wrap"><h2 data-reveal>Crescer tem<br/><em>tantos caminhos.</em></h2><div className="stages-grid"><article className="stage infant" data-reveal><div className="stage-arch" aria-hidden="true"><span/><span/><span/></div><div><h3>{school.stages[0]}</h3><p>As primeiras descobertas.<br/>O começo de tantas histórias.</p><a href={school.instagram} target="_blank" rel="noreferrer">Converse sobre as turmas <ArrowUpRight size={20}/></a></div></article><article className="stage fundamental" data-reveal><div className="step-shape" aria-hidden="true"><span/><span/><span/></div><div><h3>Ensino Fundamental</h3><p>Do 1º ao 5º ano.<br/>Novos horizontes a cada passo.</p><a href={school.instagram} target="_blank" rel="noreferrer">Conheça essa etapa <ArrowUpRight size={20}/></a></div></article></div></div></section>
       <section id="momentos" className="gallery-section"><div className="wrap"><div className="gallery-heading"><h2 data-reveal>A infância<br/><em>acontece aqui.</em></h2><div><Flower className="gallery-flower"/><p>Um álbum de ideias, encontros<br/>e momentos para guardar.</p></div></div><PhotoGallery/></div></section>
       <section className="community-section"><div className="wrap community-layout"><div className="community-copy"><h2 data-reveal>Juntos é<br/><em>mais bonito.</em></h2><p data-reveal>{schoolEditorial.community}</p><a className="button" href="https://www.instagram.com/p/DcHT8nZCUxI/" target="_blank" rel="noreferrer"><Instagram size={19}/> Veja esse encontro <ArrowUpRight size={19}/></a></div><figure className="community-photo" data-reveal="photo"><SchoolPhoto id="comunidade-reunida" alt="Famílias reunidas para a Corrida do Dia dos Pais da Escola Meus Primeiros Passos."/><figcaption>Um registro da nossa comunidade.</figcaption></figure><Trail className="community-trail"/></div></section>
+      <ExplorePaths/>
       <section className="faq-section wrap"><h2 data-reveal>Antes do<br/><em>primeiro passo.</em></h2><div className="faq-list">{questions.map((q,i) => <article key={q.question} className={question === i ? 'faq-open' : ''}><h3><button aria-expanded={question === i} aria-controls={question === i ? `faq-${i}` : undefined} onClick={() => setQuestion(question === i ? null : i)}>{q.question}{question === i ? <Minus size={21}/> : <Plus size={21}/>}</button></h3>{question === i && <p id={`faq-${i}`}>{q.answer}</p>}</article>)}</div></section>
       <section id="contato" className="contact-section"><div className="wrap contact-layout"><Flower className="contact-flower"/><h2 data-reveal>O próximo passo<br/><em>começa com um oi.</em></h2><div className="contact-bottom"><p>Vamos conhecer essa história de perto?<br/>Converse com a escola pelo Instagram.</p><a className="button contact-button" data-magnetic href={school.instagram} target="_blank" rel="noreferrer">Diga oi para a escola <ArrowUpRight size={24}/></a></div><Trail className="contact-trail"/></div></section>
     </main>
-    <footer className="site-footer wrap"><div className="footer-top"><Brand/><p>{school.positioning}<br/><span>{school.location}</span></p><nav aria-label="Links do rodapé"><a href={school.instagram} target="_blank" rel="noreferrer">Instagram <ArrowUpRight size={16}/></a><Link to="/portal">Portal do Professor <ArrowUpRight size={16}/></Link><a href="#main">Voltar ao início <ArrowUpRight size={16}/></a></nav></div><div className="footer-bottom"><span>{school.proposal}</span><span>Identidade proposta · grafismos conceituais · fotografias do perfil da escola</span></div></footer>
+    <footer className="site-footer wrap">
+      <section id="localizacao" className="footer-visit" aria-labelledby="visit-heading">
+        <div className="footer-visit-info">
+          <span className="footer-eyebrow"><MapPin size={17}/> Nosso cantinho em Gravatá</span>
+          <h2 id="visit-heading">A próxima descoberta<br/><em>fica logo ali.</em></h2>
+          <p>Um lugar para aprender, brincar e criar histórias. Veja onde fica a Escola Meus Primeiros Passos.</p>
+          <address>{school.address}</address>
+          <a className="map-route" href={school.mapsUrl} target="_blank" rel="noopener noreferrer">Ver localização no Google Maps <Navigation2 size={18}/></a>
+          <small className="address-source">Endereço de diretórios públicos; confirme com a escola antes da visita.</small>
+          <div className="footer-visit-sticker" aria-hidden="true"><Heart size={26}/><span>Vem conhecer!</span></div>
+        </div>
+        <div className="footer-map">
+          <iframe title="Mapa de localização da Escola Meus Primeiros Passos em Gravatá" src={school.mapsEmbedUrl} loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen/>
+          <span className="map-corner" aria-hidden="true"><MapPin size={15}/> Gravatá · PE</span>
+        </div>
+      </section>
+      <div className="footer-top"><Brand/><p>{school.positioning}<br/><span>{school.location}</span></p><nav aria-label="Links do rodapé"><a href={school.instagram} target="_blank" rel="noreferrer">Instagram <ArrowUpRight size={16}/></a><Link to="/portal">Portal do Professor <ArrowUpRight size={16}/></Link><a href="#localizacao">Nossa localização <MapPin size={16}/></a><a href="#main">Voltar ao início <ArrowUpRight size={16}/></a></nav></div>
+      <div className="footer-bottom"><span>{school.proposal}</span><a className="developer-credit" href="https://murilogabriel.com.br" target="_blank" rel="noopener noreferrer">Desenvolvido por <strong>Murilo Gabriel</strong><span>murilogabriel.com.br</span><MoveUpRight size={16}/></a></div>
+    </footer>
   </div></SiteMotion>;
 }

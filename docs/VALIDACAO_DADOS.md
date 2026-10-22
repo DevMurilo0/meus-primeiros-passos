@@ -44,3 +44,12 @@ Para qualquer imagem adicional, registrar fonte, autoria, autorização e escopo
 ## Dados demonstrativos
 
 54 alunos, três turmas (1º, 2º e 3º anos), professora Marina Oliveira, notas, frequências e atividades são inteiramente fictícios. Nomes das turmas e distribuição de turnos não descrevem a operação real. A média aritmética simples é apenas ilustrativa e não constitui regra acadêmica da escola. O painel usa a data de referência fixa 21/10/2026 e a identifica como agenda ilustrativa. Os dados ficam em `src/features/demo/data.ts` e as informações institucionais em `src/config/school.ts`.
+
+
+## Localização e mapa incorporado — verificação adicional (21/10/2026)
+
+- Diretório [Locais do Brasil — Boa Vista, Gravatá](https://www.locaisdobrasil.com.br/bairro/boa-vista/gravata-pe?pagina=5) divulga **Rua São Sebastião, 59 — Boa Vista, Gravatá — PE, CEP 55644-130** para a Escola Meus Primeiros Passos.
+- [Varejão do Estudante](https://www.varejao.com.br/ListaEscolas.aspx?argumento=Escola) confirma a **Rua São Sebastião** para a escola em Gravatá, sem número.
+- A ficha de localização do provedor de mapas consultado também menciona **Rua Manoel Bezerra de Lima, 59** na linha principal, divergente dos diretórios. Há ainda registro de unidade **anexo** em Rua Djalma Pereira de Lima em listagem distinta, que não deve ser confundida com o endereço principal.
+- O rodapé exibe o endereço corroborado pelos diretórios, **com aviso para confirmar a visita**. O iframe e o link externo pesquisam o nome completo da escola e Gravatá, sem fixar coordenadas supostamente exatas.
+- Não converter esses dados em informação institucional definitivamente validada sem confirmação da escola.

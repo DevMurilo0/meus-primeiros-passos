@@ -53,3 +53,12 @@ Dados fictícios e interações somente em memória. A identidade visual usa as 
 ## Qualidade
 
 Conferir desktop e mobile, foco, contraste, navegação por teclado, testes do portal e estados vazios. A nova suíte de verificação automatizada no GitHub é uma camada adicional, não substitui revisão visual.
+
+
+## Extensões de navegação e presença física (outubro/2026)
+
+- Navegação desktop com foco e hover de camada lavanda, sublinhado coral animado e feedback discreto no acesso ao portal. Menu mobile recebe entrada curta, sem atrasar o clique.
+- Barra de progresso de leitura passiva implementada em `ReadingProgress.tsx` com `requestAnimationFrame` e `prefers-reduced-motion` preservado nas animações decorativas.
+- `ExplorePaths.tsx`: três caminhos reais para explorar a escola, o álbum de fotografias e a demonstração do portal; seleção por botões com `aria-pressed` e conteúdo que acompanha a opção.
+- Rodapé com mapa Google Maps em iframe quadrado, carregamento adiado e alternativa de navegação externa, usando o nome e a cidade no mapa para não fixar localização duvidosa.
+- Crédito de desenvolvimento ligado ao portfólio de Murilo Gabriel.

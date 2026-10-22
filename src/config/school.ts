@@ -5,7 +5,10 @@ export const school = {
   location: "Gravatá, Pernambuco",
   stages: ["Educação Infantil", "Ensino Fundamental · 1º ao 5º ano"],
   positioning: "Aprender com amor e propósito.",
-  address: null,
+  // Endereço em diretórios públicos; ver divergência de rua no mapa em docs/VALIDACAO_DADOS.md.
+  address: "Rua São Sebastião, 59 · Boa Vista · Gravatá — PE",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Escola%20Meus%20Primeiros%20Passos%20Gravata%20PE",
+  mapsEmbedUrl: "https://maps.google.com/maps?q=Escola%20Meus%20Primeiros%20Passos%20Gravata%20PE&z=16&output=embed",
   phone: null,
   email: null,
   proposal: "Proposta de experiência digital · apresentação independente",
