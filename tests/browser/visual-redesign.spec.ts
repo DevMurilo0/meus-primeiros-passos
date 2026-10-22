@@ -34,11 +34,13 @@ test('fotografias locais carregam e movimento pode ser interrompido', async ({ p
     for (const image of photos) image.loading = 'eager';
     await Promise.all(photos.map(image => image.decode()));
   });
-  expect(await page.locator('img').evaluateAll(images =>
-    (images as HTMLImageElement[]).every(i =>
-      i.naturalWidth > 0 && i.currentSrc.includes('/assets/school/')
-    )
-  )).toBe(true);
+  // A identidade institucional possui uma imagem própria em /assets/brand/.
+  // Validar as fotografias da escola separadamente, sem exigir o mesmo caminho da logo.
+  expect(await page.locator('img').evaluateAll(images => {
+    const photos = (images as HTMLImageElement[])
+      .filter(img => img.currentSrc.includes('/assets/school/'));
+    return photos.length > 0 && photos.every(img => img.naturalWidth > 0);
+  })).toBe(true);
   await page.getByRole('button', { name: 'Retomar movimento' }).click();
   await page.waitForTimeout(1100);
   expect(await page.evaluate(() => document.getAnimations().some(a => a.playState === 'running'))).toBe(true);
