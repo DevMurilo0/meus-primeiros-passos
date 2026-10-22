@@ -7,6 +7,7 @@ import { SchoolPhoto } from '../components/SchoolPhoto';
 import { PhotoGallery } from '../components/PhotoGallery';
 import { ExplorePaths } from '../components/ExplorePaths';
 import { ReadingProgress } from '../components/ReadingProgress';
+import { SchoolMap } from '../components/SchoolMap';
 import { Flower, PlaySticker, Trail } from '../components/PlayfulArt';
 import { school, schoolEditorial, questions } from '../config/school';
 import '../styles/home.css';
@@ -79,13 +80,10 @@ export default function Home() {
           <small className="address-source">Endereço de diretórios públicos; confirme com a escola antes da visita.</small>
           <div className="footer-visit-sticker" aria-hidden="true"><Heart size={26}/><span>Vem conhecer!</span></div>
         </div>
-        <div className="footer-map">
-          <iframe title="Mapa de localização da Escola Meus Primeiros Passos em Gravatá" src={school.mapsEmbedUrl} loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen/>
-          <span className="map-corner" aria-hidden="true"><MapPin size={15}/> Gravatá · PE</span>
-        </div>
+        <SchoolMap/>
       </section>
       <div className="footer-top"><Brand/><p>{school.positioning}<br/><span>{school.location}</span></p><nav aria-label="Links do rodapé"><a href={school.instagram} target="_blank" rel="noreferrer">Instagram <ArrowUpRight size={16}/></a><Link to="/portal">Portal do Professor <ArrowUpRight size={16}/></Link><a href="#localizacao">Nossa localização <MapPin size={16}/></a><a href="#main">Voltar ao início <ArrowUpRight size={16}/></a></nav></div>
-      <div className="footer-bottom"><span>{school.proposal}</span><a className="developer-credit" href="https://murilogabriel.com.br" target="_blank" rel="noopener noreferrer">Desenvolvido por <strong>Murilo Gabriel</strong><span>murilogabriel.com.br</span><MoveUpRight size={16}/></a></div>
+      <div className="footer-bottom"><span>{school.proposal}</span><a className="developer-credit" href="https://murilogabriel.com.br" target="_blank" rel="noopener noreferrer"><span className="developer-credit-copy">Desenvolvido por <strong>Murilo Gabriel</strong><small>murilogabriel.com.br</small></span><MoveUpRight size={17}/></a></div>
     </footer>
   </div></SiteMotion>;
 }

@@ -9,7 +9,10 @@ test('rodapé informa autoria, localização, mapa e rota real', async ({ page }
   await expect(footer.getByText(/Rua São Sebastião, 59/)).toBeVisible();
   const route = footer.getByRole('link', { name: 'Ver localização no Google Maps' });
   await expect(route).toHaveAttribute('href', /google.com\/maps\/search/);
-  await expect(footer.getByTitle(/Mapa de localização da Escola/)).toHaveAttribute('src', /maps.google.com\/maps/);
+  await expect(footer.getByText('Ilustração de localização · sem escala')).toBeVisible();
+  await footer.getByRole('button', { name: 'Explorar mapa interativo' }).click();
+  await expect(footer.getByTitle(/Mapa interativo da Escola/)).toHaveAttribute('src', /maps.google.com\/maps/);
+  await expect(footer.getByRole('link', { name: /Abrir no Google Maps/ })).toHaveAttribute('href', /google.com\/maps\/search/);
   await expect(page.getByRole('link', { name: 'Onde estamos' })).toBeVisible();
 });
 

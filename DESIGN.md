@@ -62,3 +62,5 @@ Conferir desktop e mobile, foco, contraste, navegação por teclado, testes do p
 - `ExplorePaths.tsx`: três caminhos reais para explorar a escola, o álbum de fotografias e a demonstração do portal; seleção por botões com `aria-pressed` e conteúdo que acompanha a opção.
 - Rodapé com mapa Google Maps em iframe quadrado, carregamento adiado e alternativa de navegação externa, usando o nome e a cidade no mapa para não fixar localização duvidosa.
 - Crédito de desenvolvimento ligado ao portfólio de Murilo Gabriel.
+
+- O componente `SchoolMap.tsx` oferece uma prévia cartográfica **abstrata e declaradamente sem escala** que funciona sem conexão; um clique ativa o mapa Google incorporado. Mantém o link direto para o serviço caso o iframe seja bloqueado. O componente não inventa um ponto geográfico exato.

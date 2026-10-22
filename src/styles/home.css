@@ -568,3 +568,33 @@
   .desktop-nav a, .desktop-nav a::before, .desktop-nav a::after, .portal-link, .portal-link svg,
   .explore-option, .map-route, .developer-credit svg { transition: none !important; }
 }
+
+
+/* Prévia geográfica declaradamente ilustrativa; não renderizar quadro vazio sem rede. */
+.map-preview, .map-preview > svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.map-preview { isolation: isolate; overflow: hidden; }
+.map-preview > svg { opacity: .97; }
+.map-preview-title { position: absolute; left: 16px; bottom: 88px; z-index: 1; background: var(--paper); border-radius: 15px; padding: 12px 17px; font-size: 14px; line-height: 1.4; font-weight: 800; color: var(--ink); box-shadow: 0 5px 17px #24313d20; }
+.map-preview-title strong { font-size: 23px; line-height: 1.1; }
+.map-preview-disclaimer { position: absolute; left: 15px; bottom: 10px; font-size: 10px; font-weight: 800; color: #25373e; background: #fff5e9e8; border-radius: 7px; padding: 5px 8px; }
+.map-preview-actions { position: absolute; inset: auto 10px 12px; display: flex; justify-content: center; z-index: 2; }
+.map-open-action { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 49px; max-width: 100%; border-radius: 999px; padding: 12px 19px; background: var(--ink); color: white; font-size: 12px; font-weight: 800; white-space: normal; box-shadow: 0 8px 20px #24313d32; transition: transform .18s ease, background .18s ease; text-align: center; }
+.map-open-action:active { transform: scale(.97); }
+@media (hover: hover) and (pointer: fine) {
+  .map-open-action:hover { background: var(--violet); transform: translateY(-3px); }
+}
+.map-preview-actions:has(+ .map-corner) + .map-corner { z-index: 2; }
+.site .footer-map iframe { background: #e7ead8; }
+.developer-credit { display: inline-flex; align-items: center; gap: 12px; flex-wrap: nowrap; max-width: 100%; }
+.developer-credit-copy { display: flex; flex-wrap: wrap; align-items: baseline; gap: 5px; }
+.developer-credit-copy small { font-size: 12px; color: var(--muted); margin-left: 5px; }
+.developer-credit > svg { flex-shrink: 0; }
+@media (max-width: 600px) {
+  .developer-credit { align-items: center; gap: 10px; }
+  .developer-credit-copy { display: block; line-height: 1.7; }
+  .developer-credit-copy strong { white-space: nowrap; }
+  .developer-credit-copy small { display: block; margin: 0; font-size: 12px; }
+  .map-preview-title { left: 12px; bottom: 75px; padding: 10px 13px; font-size: 12px; }
+  .map-preview-title strong { font-size: 19px; }
+  .map-open-action { font-size: 11px; padding: 10px 14px; }
+}
