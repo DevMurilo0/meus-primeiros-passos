@@ -6,6 +6,7 @@ import { SiteMotion } from '../components/SiteMotion';
 import { SchoolPhoto } from '../components/SchoolPhoto';
 import { PhotoGallery } from '../components/PhotoGallery';
 import { ExplorePaths } from '../components/ExplorePaths';
+import { MemoryChapters } from '../components/MemoryChapters';
 import { ReadingProgress } from '../components/ReadingProgress';
 import { SchoolMap } from '../components/SchoolMap';
 import { Flower, PlaySticker, Trail } from '../components/PlayfulArt';
@@ -63,6 +64,7 @@ export default function Home() {
         </div>
       </section>
       <section className="stages-section"><div className="wrap"><h2 data-reveal>Crescer tem<br/><em>tantos caminhos.</em></h2><div className="stages-grid"><article className="stage infant" data-reveal><div className="stage-arch" aria-hidden="true"><span/><span/><span/></div><div><h3>{school.stages[0]}</h3><p>As primeiras descobertas.<br/>O começo de tantas histórias.</p><a href={school.instagram} target="_blank" rel="noreferrer">Converse sobre as turmas <ArrowUpRight size={20}/></a></div></article><article className="stage fundamental" data-reveal><div className="step-shape" aria-hidden="true"><span/><span/><span/></div><div><h3>Ensino Fundamental</h3><p>Do 1º ao 5º ano.<br/>Novos horizontes a cada passo.</p><a href={school.instagram} target="_blank" rel="noreferrer">Conheça essa etapa <ArrowUpRight size={20}/></a></div></article></div></div></section>
+      <MemoryChapters/>
       <section id="momentos" className="gallery-section"><div className="wrap"><div className="gallery-heading"><h2 data-reveal>A infância<br/><em>acontece aqui.</em></h2><div><Flower className="gallery-flower"/><p>Um álbum de ideias, encontros<br/>e momentos para guardar.</p></div></div><PhotoGallery/></div></section>
       <section className="community-section"><div className="wrap community-layout"><div className="community-copy"><h2 data-reveal>Juntos é<br/><em>mais bonito.</em></h2><p data-reveal>{schoolEditorial.community}</p><a className="button" href="https://www.instagram.com/p/DcHT8nZCUxI/" target="_blank" rel="noreferrer"><Instagram size={19}/> Veja esse encontro <ArrowUpRight size={19}/></a></div><figure className="community-photo" data-photo-motion="swing"><SchoolPhoto id="comunidade-reunida" alt="Famílias reunidas para a Corrida do Dia dos Pais da Escola Meus Primeiros Passos."/><figcaption>Um registro da nossa comunidade.</figcaption></figure><Trail className="community-trail"/></div></section>
       <ExplorePaths/>
