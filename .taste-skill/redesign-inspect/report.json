@@ -1,0 +1,2035 @@
+{
+ "url": "http://localhost:5173",
+ "at": "2026-10-21T23:40:27.364Z",
+ "allow": [
+  "accent-headline",
+  "assistant-palette",
+  "decorative-shapes"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.41,
+    0.87,
+    0.44,
+    1,
+    1,
+    0.99,
+    0.67,
+    0.6
+   ],
+   "motion": {
+    "elements": 20,
+    "css": 19,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 7189,
+     "screens": 8,
+     "words": 436,
+     "img": 11,
+     "video": 0,
+     "canvas": 0,
+     "svg": 57,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 11,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "corrida-em-familia-600.webp",
+      "semana-maluca-amizade-600.webp",
+      "abraco-em-familia-600.webp",
+      "semana-maluca-imaginacao-600.webp",
+      "corrida-em-familia-600.webp",
+      "semana-maluca-sorrisos-600.webp",
+      "abraco-em-familia-600.webp",
+      "semana-maluca-criacoes-600.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Grandes",
+     "words": 1,
+     "chars": 7,
+     "lines": 1,
+     "size": 112,
+     "vw": 7.8,
+     "font": "Red Hat Display",
+     "weight": 900,
+     "tracking": -0.055,
+     "leading": 0.97,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.49,
+     "top": 267,
+     "tag": "span",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Pequenos passos. Grandes descobertas.",
+     "words": 4,
+     "lines": 3,
+     "size": 112,
+     "font": "Red Hat Display"
+    },
+    "headings": [
+     {
+      "text": "Grandes",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 112,
+      "vw": 7.8,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.055,
+      "leading": 0.97,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 267,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "descobertas.",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 104.2,
+      "vw": 7.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.059,
+      "leading": 0.97,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 375,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "aprender brincar imaginar crescer aprender brincar imaginar crescer aprender brincar imaginar crescer aprender brincar imaginar crescer Aprender, brincar, imaginar, crescer.",
+      "words": 20,
+      "chars": 173,
+      "lines": 6,
+      "size": 37,
+      "vw": 2.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1.04,
+      "top": 858,
+      "tag": "div",
+      "kind": "statement"
+     },
+     {
+      "text": "Amor no começo. Mundo pela frente.",
+      "words": 6,
+      "chars": 34,
+      "lines": 2,
+      "size": 67,
+      "vw": 4.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.46,
+      "top": 1109,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "É assim que a gente descobre.",
+      "words": 6,
+      "chars": 29,
+      "lines": 2,
+      "size": 78,
+      "vw": 5.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 1800,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Imaginar",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 49,
+      "vw": 3.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.035,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.42,
+      "top": 2034,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Explorar",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 49,
+      "vw": 3.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.035,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.42,
+      "top": 2322,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Conviver",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 49,
+      "vw": 3.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.035,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.42,
+      "top": 2431,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Crescer tem tantos caminhos.",
+      "words": 4,
+      "chars": 28,
+      "lines": 2,
+      "size": 78,
+      "vw": 5.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2731,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Ensino Fundamental",
+      "words": 2,
+      "chars": 18,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 2.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.23,
+      "top": 3052,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Educação Infantil",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 2.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.19,
+      "top": 3053,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "A infância acontece aqui.",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 78,
+      "vw": 5.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.35,
+      "top": 3466,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Juntos é mais bonito.",
+      "words": 4,
+      "chars": 21,
+      "lines": 2,
+      "size": 78,
+      "vw": 5.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 5428,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Antes do primeiro passo.",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 66,
+      "vw": 4.6,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 6044,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "O próximo passo começa com um oi.",
+      "words": 7,
+      "chars": 33,
+      "lines": 2,
+      "size": 106,
+      "vw": 7.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.69,
+      "top": 6556,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 6,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 0.84,
+       "mono": false
+      },
+      {
+       "family": "Red Hat Display",
+       "share": 0.16,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      21,
+      35,
+      37,
+      49,
+      61,
+      66,
+      67,
+      78,
+      104,
+      106,
+      112
+     ],
+     "sizeCount": 19,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 16,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 12.3
+     },
+     "measureChars": 97,
+     "max": {
+      "size": 112,
+      "vw": 7.8,
+      "font": "Red Hat Display",
+      "text": "Grandes"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.06,
+     "smallText": 22
+    },
+    "eyebrows": [
+     {
+      "text": "O próximo passo é descobrir",
+      "above": "aprender brincar imaginar crescer aprend",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 781
+     },
+     {
+      "text": "Ver registro da escola",
+      "above": "Explorar",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13,
+      "top": 2252
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#fff5e9",
+     "bodyBgHsl": {
+      "h": 33,
+      "s": 1,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#6554d8",
+       "top": 941,
+       "hsl": {
+        "h": 248,
+        "s": 0.63,
+        "l": 0.59
+       }
+      },
+      {
+       "color": "#ffc247",
+       "top": 2641,
+       "hsl": {
+        "h": 40,
+        "s": 1,
+        "l": 0.64
+       }
+      },
+      {
+       "color": "#ffe3e5",
+       "top": 3351,
+       "hsl": {
+        "h": 356,
+        "s": 1,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#21a8a0",
+       "top": 5282,
+       "hsl": {
+        "h": 176,
+        "s": 0.67,
+        "l": 0.39
+       }
+      },
+      {
+       "color": "#f15b6c",
+       "top": 6466,
+       "hsl": {
+        "h": 353,
+        "s": 0.84,
+        "l": 0.65
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#24313d",
+       "share": 0.74
+      },
+      {
+       "color": "#fff5e9",
+       "share": 0.17
+      },
+      {
+       "color": "#56606a",
+       "share": 0.05
+      },
+      {
+       "color": "#6554d8",
+       "share": 0.01
+      },
+      {
+       "color": "#f15b6c",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#24313d",
+      "hsl": {
+       "h": 209,
+       "s": 0.26,
+       "l": 0.19
+      },
+      "fg": "#24313d"
+     },
+     "lowContrast": [
+      {
+       "text": "As primeiras descobertas.O começo de tan",
+       "ratio": 4.1,
+       "need": 4.5,
+       "size": 16,
+       "fg": "#24313d",
+       "bg": "#f15b6c"
+      },
+      {
+       "text": "Converse sobre as turmas",
+       "ratio": 4.1,
+       "need": 4.5,
+       "size": 12,
+       "fg": "#24313d",
+       "bg": "#f15b6c"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Portal do Professor",
+      "Conheça a escola"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 6,
+     "boxRadius": 99,
+     "squareMedia": 8,
+     "roundedMedia": 3,
+     "mediaRadius": 108,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.18
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": false,
+     "height": 112,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "red hat display",
+     "manrope"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.61,
+    0.6,
+    0.86,
+    0.99,
+    0.72,
+    0.5
+   ],
+   "motion": {
+    "elements": 33,
+    "css": 31,
+    "transitions": 0,
+    "scripted": 2,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 6011,
+     "screens": 5.9,
+     "words": 431,
+     "img": 11,
+     "video": 0,
+     "canvas": 0,
+     "svg": 57,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 11,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "corrida-em-familia-600.webp",
+      "semana-maluca-amizade-600.webp",
+      "abraco-em-familia-600.webp",
+      "semana-maluca-imaginacao-600.webp",
+      "corrida-em-familia-600.webp",
+      "semana-maluca-sorrisos-600.webp",
+      "abraco-em-familia-600.webp",
+      "semana-maluca-criacoes-600.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Grandes",
+     "words": 1,
+     "chars": 7,
+     "lines": 1,
+     "size": 61.4,
+     "vw": 8,
+     "font": "Red Hat Display",
+     "weight": 900,
+     "tracking": -0.055,
+     "leading": 0.97,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.49,
+     "top": 194,
+     "tag": "span",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Pequenos passos. Grandes descobertas.",
+     "words": 4,
+     "lines": 3,
+     "size": 61.4,
+     "font": "Red Hat Display"
+    },
+    "headings": [
+     {
+      "text": "Grandes",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 61.4,
+      "vw": 8,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.055,
+      "leading": 0.97,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 194,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "descobertas.",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 57.1,
+      "vw": 7.4,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.059,
+      "leading": 0.97,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 253,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "aprender brincar imaginar crescer aprender brincar imaginar crescer aprender brincar imaginar crescer aprender brincar imaginar crescer Aprender, brincar, imaginar, crescer.",
+      "words": 20,
+      "chars": 173,
+      "lines": 6,
+      "size": 37,
+      "vw": 4.8,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1.04,
+      "top": 723,
+      "tag": "div",
+      "kind": "statement"
+     },
+     {
+      "text": "Amor no começo. Mundo pela frente.",
+      "words": 6,
+      "chars": 34,
+      "lines": 2,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.47,
+      "top": 911,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "É assim que a gente descobre.",
+      "words": 6,
+      "chars": 29,
+      "lines": 2,
+      "size": 42.2,
+      "vw": 5.5,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 1481,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Imaginar",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.035,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 1639,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Explorar",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.035,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 1900,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Conviver",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.035,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 1992,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Crescer tem tantos caminhos.",
+      "words": 4,
+      "chars": 28,
+      "lines": 2,
+      "size": 42.2,
+      "vw": 5.5,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2273,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A infância acontece aqui.",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 42.2,
+      "vw": 5.5,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 2998,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Juntos é mais bonito.",
+      "words": 4,
+      "chars": 21,
+      "lines": 2,
+      "size": 42.2,
+      "vw": 5.5,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 4328,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Antes do primeiro passo.",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 4874,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "O próximo passo começa com um oi.",
+      "words": 7,
+      "chars": 33,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 5478,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 13,
+     "maxLines": 6,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 0.84,
+       "mono": false
+      },
+      {
+       "family": "Red Hat Display",
+       "share": 0.16,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      24,
+      30,
+      33,
+      37,
+      40,
+      42,
+      57,
+      58,
+      61
+     ],
+     "sizeCount": 18,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 14,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 12.3
+     },
+     "measureChars": 52,
+     "max": {
+      "size": 61.4,
+      "vw": 8,
+      "font": "Red Hat Display",
+      "text": "Grandes"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.06,
+     "smallText": 25
+    },
+    "eyebrows": [
+     {
+      "text": "O próximo passo é descobrir",
+      "above": "aprender brincar imaginar crescer aprend",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 635
+     },
+     {
+      "text": "Ver registro da escola",
+      "above": "Explorar",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13,
+      "top": 1830
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#fff5e9",
+     "bodyBgHsl": {
+      "h": 33,
+      "s": 1,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#6554d8",
+       "top": 794,
+       "hsl": {
+        "h": 248,
+        "s": 0.63,
+        "l": 0.59
+       }
+      },
+      {
+       "color": "#ffc247",
+       "top": 2183,
+       "hsl": {
+        "h": 40,
+        "s": 1,
+        "l": 0.64
+       }
+      },
+      {
+       "color": "#ffe3e5",
+       "top": 2860,
+       "hsl": {
+        "h": 356,
+        "s": 1,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#21a8a0",
+       "top": 4192,
+       "hsl": {
+        "h": 176,
+        "s": 0.67,
+        "l": 0.39
+       }
+      },
+      {
+       "color": "#f15b6c",
+       "top": 5388,
+       "hsl": {
+        "h": 353,
+        "s": 0.84,
+        "l": 0.65
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#24313d",
+       "share": 0.67
+      },
+      {
+       "color": "#fff5e9",
+       "share": 0.17
+      },
+      {
+       "color": "#192631",
+       "share": 0.07
+      },
+      {
+       "color": "#56606a",
+       "share": 0.05
+      },
+      {
+       "color": "#6554d8",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#24313d",
+      "hsl": {
+       "h": 209,
+       "s": 0.26,
+       "l": 0.19
+      },
+      "fg": "#24313d"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Portal do Professor",
+      "Conheça a escola"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 6,
+     "boxRadius": 99,
+     "squareMedia": 7,
+     "roundedMedia": 3,
+     "mediaRadius": 108,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.11
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 95,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "red hat display",
+     "manrope"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.58,
+    0.87,
+    0.76,
+    0.5,
+    0.97,
+    1,
+    0.95,
+    0.42,
+    0.55
+   ],
+   "motion": {
+    "elements": 14,
+    "css": 13,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 7369,
+     "screens": 8.7,
+     "words": 428,
+     "img": 11,
+     "video": 0,
+     "canvas": 0,
+     "svg": 57,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 11,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "corrida-em-familia-600.webp",
+      "semana-maluca-amizade-600.webp",
+      "abraco-em-familia-600.webp",
+      "semana-maluca-imaginacao-600.webp",
+      "corrida-em-familia-600.webp",
+      "semana-maluca-sorrisos-600.webp",
+      "abraco-em-familia-600.webp",
+      "semana-maluca-criacoes-600.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "descobertas.",
+     "words": 1,
+     "chars": 12,
+     "lines": 1,
+     "size": 54,
+     "vw": 13.8,
+     "font": "Red Hat Display",
+     "weight": 900,
+     "tracking": -0.045,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 212,
+     "tag": "span",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Pequenos passos. Grandes descobertas.",
+     "words": 4,
+     "lines": 3,
+     "size": 54,
+     "font": "Red Hat Display"
+    },
+    "headings": [
+     {
+      "text": "Grandes",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 54,
+      "vw": 13.8,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.045,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 159,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "descobertas.",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 54,
+      "vw": 13.8,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.045,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 212,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Amor no começo. Mundo pela frente.",
+      "words": 6,
+      "chars": 34,
+      "lines": 2,
+      "size": 36.3,
+      "vw": 9.3,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1091,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "É assim que a gente descobre.",
+      "words": 6,
+      "chars": 29,
+      "lines": 2,
+      "size": 39,
+      "vw": 10,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2018,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Imaginar",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 35,
+      "vw": 9,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.035,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2620,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Explorar",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 35,
+      "vw": 9,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.035,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2886,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Conviver",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 35,
+      "vw": 9,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.035,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2978,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Crescer tem tantos caminhos.",
+      "words": 4,
+      "chars": 28,
+      "lines": 2,
+      "size": 39,
+      "vw": 10,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3204,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Educação Infantil",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.53,
+      "top": 3374,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Ensino Fundamental",
+      "words": 2,
+      "chars": 18,
+      "lines": 2,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.57,
+      "top": 3638,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "A infância acontece aqui.",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 39,
+      "vw": 10,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3996,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Juntos é mais bonito.",
+      "words": 4,
+      "chars": 21,
+      "lines": 2,
+      "size": 39,
+      "vw": 10,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5352,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Antes do primeiro passo.",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 39,
+      "vw": 10,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6166,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "O próximo passo começa com um oi.",
+      "words": 7,
+      "chars": 33,
+      "lines": 2,
+      "size": 35.9,
+      "vw": 9.2,
+      "font": "Red Hat Display",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6779,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 0.84,
+       "mono": false
+      },
+      {
+       "family": "Red Hat Display",
+       "share": 0.16,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      26,
+      29,
+      31,
+      35,
+      36,
+      39,
+      54
+     ],
+     "sizeCount": 16,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 15,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 5.1
+     },
+     "measureChars": 50,
+     "max": {
+      "size": 54,
+      "vw": 13.8,
+      "font": "Red Hat Display",
+      "text": "Grandes"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.06,
+     "smallText": 30
+    },
+    "eyebrows": [
+     {
+      "text": "Semana Maluca · recorte do registro oficial",
+      "above": "Imaginar",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 2520
+     },
+     {
+      "text": "Ver registro da escola",
+      "above": "Explorar",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13,
+      "top": 2816
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#fff5e9",
+     "bodyBgHsl": {
+      "h": 33,
+      "s": 1,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffc247",
+       "top": 438,
+       "hsl": {
+        "h": 40,
+        "s": 1,
+        "l": 0.64
+       }
+      },
+      {
+       "color": "#6554d8",
+       "top": 1008,
+       "hsl": {
+        "h": 248,
+        "s": 0.63,
+        "l": 0.59
+       }
+      },
+      {
+       "color": "#ffe3e5",
+       "top": 3921,
+       "hsl": {
+        "h": 356,
+        "s": 1,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#21a8a0",
+       "top": 5282,
+       "hsl": {
+        "h": 176,
+        "s": 0.67,
+        "l": 0.39
+       }
+      },
+      {
+       "color": "#fff5e9",
+       "top": 5641,
+       "hsl": {
+        "h": 33,
+        "s": 1,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#f15b6c",
+       "top": 6699,
+       "hsl": {
+        "h": 353,
+        "s": 0.84,
+        "l": 0.65
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#24313d",
+       "share": 0.67
+      },
+      {
+       "color": "#fff5e9",
+       "share": 0.17
+      },
+      {
+       "color": "#192631",
+       "share": 0.07
+      },
+      {
+       "color": "#56606a",
+       "share": 0.05
+      },
+      {
+       "color": "#6554d8",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#24313d",
+      "hsl": {
+       "h": 209,
+       "s": 0.26,
+       "l": 0.19
+      },
+      "fg": "#fff5e9"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Conheça a escola"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 6,
+     "boxRadius": 99,
+     "squareMedia": 1,
+     "roundedMedia": 3,
+     "mediaRadius": 108,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 5,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 4348
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.24
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "red hat display",
+     "manrope"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 1440,
+   "message": "1 headline(s) wrap past two lines at 1440px: \"aprender brincar imaginar crescer aprender brinc\" → 6 lines (20 words, 37px, a paragraph set above 36px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "2 eyebrow/kicker label(s) above headings: \"O próximo passo é descobrir\" above \"aprender brincar imaginar crescer aprend\"; \"Ver registro da escola\" above \"Explorar\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (page background #fff5e9, text #fff5e9).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "palette-purple",
+   "width": 1440,
+   "message": "Indigo / violet (section #6554d8, text #6554d8).",
+   "fix": "Use the accent from the drawn palette.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Low-contrast text: \"As primeiras descobertas.O começo de tan\" 4.1:1 needs 4.5:1; \"Converse sobre as turmas\" 4.1:1 needs 4.5:1",
+   "fix": "Darken or lighten the text colour."
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "19 different font sizes (10, 11, 12, 13, 14, 15, 16, 17, 21, 35, 37, 49, 61, 66, 67, 78, 104, 106, 112).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "measure",
+   "width": 1440,
+   "message": "Longest paragraph runs about 97 characters per line.",
+   "fix": "Cap paragraphs at 45–75 characters (max-width: 60ch)."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "22 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 768,
+   "message": "1 headline(s) wrap past two lines at 768px: \"aprender brincar imaginar crescer aprender brinc\" → 6 lines (20 words, 37px, a paragraph set above 32px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 32px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 768,
+   "message": "Body text is 14px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step."
+  },
+  {
+   "level": "WARN",
+   "id": "grey-body",
+   "width": 390,
+   "message": "The running text is a soft grey on its ground (5.1:1).",
+   "fix": "Set body copy in the full ink (7:1 or more). Keep the muted ink for secondary notes; pages read thin and unfinished when everything is grey."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/murilo/Dev/andamento/escolaMPP/escola-meus-primeiros-passos/.taste-skill/redesign-inspect/desktop-fold.jpg",
+   "pages": [
+    "/home/murilo/Dev/andamento/escolaMPP/escola-meus-primeiros-passos/.taste-skill/redesign-inspect/desktop-page-01.jpg",
+    "/home/murilo/Dev/andamento/escolaMPP/escola-meus-primeiros-passos/.taste-skill/redesign-inspect/desktop-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/murilo/Dev/andamento/escolaMPP/escola-meus-primeiros-passos/.taste-skill/redesign-inspect/tablet-fold.jpg",
+   "pages": [
+    "/home/murilo/Dev/andamento/escolaMPP/escola-meus-primeiros-passos/.taste-skill/redesign-inspect/tablet-page-01.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/murilo/Dev/andamento/escolaMPP/escola-meus-primeiros-passos/.taste-skill/redesign-inspect/mobile-fold.jpg",
+   "pages": [
+    "/home/murilo/Dev/andamento/escolaMPP/escola-meus-primeiros-passos/.taste-skill/redesign-inspect/mobile-page-01.jpg",
+    "/home/murilo/Dev/andamento/escolaMPP/escola-meus-primeiros-passos/.taste-skill/redesign-inspect/mobile-page-02.jpg"
+   ]
+  }
+ ]
+}

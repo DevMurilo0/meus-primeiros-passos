@@ -2652,3 +2652,43 @@ td:first-child {
 .attendance-row fieldset {
   position: relative;
 }
+
+/* Shared identity, restrained movement for everyday work. */
+.portal-app {
+  --paper: #f7f6fc;
+  --line: #e6e2f0;
+  --ink: #24313d;
+  --green: #5141b4;
+  --green-hover: #3e3095;
+  --sage: #eeebfa;
+}
+.portal-demo-bar { background: #ffe5a8; color: #3d3523; }
+.demo-label > span { background: #6554d8; }
+.sidebar .brand > svg { color: #6554d8; }
+.sidebar nav a { color: #525968; border-radius: 10px; }
+.sidebar nav a.active { color: white; background: var(--green); }
+.sidebar-help { background: #eeebfa; }
+.sidebar-title { color: #655e79; letter-spacing: .07em; }
+.sidebar-bottom { color: #525968; }
+.portal-app h1 { font-size: clamp(26px, 2.8vw, 36px); line-height: 1.15; }
+.portal-app h2, .portal-app h3 { letter-spacing: -.025em; }
+.portal-app .button, .portal-entry .button { border-radius: 100px; }
+.portal-entry { background: #fff5e9; }
+.entry-art { background: #6554d8; color: #fff5e9; overflow: hidden; }
+.entry-art h2 { font-size: clamp(40px, 4.5vw, 65px); line-height: 1.05; color: #fff5e9; }
+.entry-art h2 em { color: #ffc247; }
+.entry-art > div > p, .entry-art > span { color: #fff5e9; }
+.entry-art .illustration { background: #ffc247; border-radius: 150px 150px 18px 18px; padding: 20px; rotate: -4deg; margin-top: 30px; max-height: 330px; }
+.entry-content { background: #fff5e9; }
+.entry-form h1 { font-size: clamp(33px, 3.5vw, 47px); line-height: 1.1; }
+.entry-demo { background: #eeebfa; border-radius: 18px; }
+.portal-symbol { background: #ffc247; color: #24313d; border-radius: 50%; }
+.portal-app .stat-icon { background: #eeebfa; color: #5141b4; }
+.portal-app .welcome-art { background: #ffc247; }
+.portal-app .page-heading { animation: portal-arrive 240ms ease-out; }
+@keyframes portal-arrive { from { opacity: .5; translate: 0 8px; } to { opacity: 1; translate: 0 0; } }
+@media (hover: hover) and (pointer: fine) {
+  .sidebar nav a:not(.active):hover { background: #eeebfa; color: #5141b4; }
+}
+@media (max-width: 760px) { .portal-app h1 { font-size: 28px; } }
+@media (prefers-reduced-motion: reduce) { .portal-app .page-heading { animation: none; } }

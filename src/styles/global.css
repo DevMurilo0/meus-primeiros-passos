@@ -1,3 +1,4 @@
+@font-face { font-family: "Red Hat Display"; src: url("/fonts/red-hat-display-900.ttf") format("truetype"); font-style: normal; font-weight: 900; font-display: swap; }
 @font-face {
   font-family: Fraunces;
   src: url("/fonts/fraunces.woff2") format("woff2");
@@ -13,20 +14,23 @@
   font-display: swap;
 }
 :root {
-  --paper: #faf8f1;
-  --ink: #244d40;
-  --green: #214e41;
-  --green-hover: #173c31;
-  --muted: #62685d;
-  --sage: #e7eddf;
-  --peach: #f3e3d9;
-  --pink: #f0e0dd;
-  --yellow: #f1e6c8;
-  --lavender: #e9e5f0;
+  --paper: #fff5e9;
+  --ink: #24313d;
+  --green: #5141b4;
+  --green-hover: #3e3095;
+  --muted: #56606a;
+  --sage: #dbefea;
+  --peach: #ffdbbc;
+  --pink: #ffe0e4;
+  --yellow: #ffc247;
+  --lavender: #ece7ff;
   --line: #e6e9e0;
   --white: #fff;
-  --accent: #a95e43;
-  --display: Fraunces, Georgia, serif;
+  --accent: #b9364c;
+  --coral: #f15b6c;
+  --violet: #6554d8;
+  --turquoise: #21a8a0;
+  --display: "Red Hat Display", Manrope, sans-serif;
   --body: Manrope, Arial, sans-serif;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   font-family: var(--body);
@@ -85,8 +89,8 @@ p {
 h1,
 h2 {
   font-family: var(--display);
-  font-weight: 400;
-  letter-spacing: -0.045em;
+  font-weight: 900;
+  letter-spacing: -0.04em;
   text-wrap: balance;
 }
 h1 em,
@@ -134,12 +138,12 @@ input:focus-visible,
 textarea:focus-visible,
 select:focus-visible,
 summary:focus-visible {
-  outline: 3px solid #b17332;
+  outline: 3px solid #6554d8;
   outline-offset: 4px;
 }
 ::selection {
-  background: #edce86;
-  color: #203e32;
+  background: #ffc247;
+  color: #24313d;
 }
 * {
   scrollbar-width: thin;
