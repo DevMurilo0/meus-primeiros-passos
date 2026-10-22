@@ -14,7 +14,7 @@ Consulta em 21/10/2026. Esta é uma proposta comercial independente, não um sit
 | Evento familiar                                         | [Publicação indexada: Corrida do Dia dos Pais](https://www.instagram.com/escola_meus_primeiros_passos/p/DcHTwb2JL3T/) | Apenas título/trecho acessível; não há galeria local ou afirmação de calendário recorrente no site. |
 | Canal de contato                                        | URL do Instagram fornecida pelo solicitante                                                                           | Os CTAs abrem esse perfil. Não há telefone ou WhatsApp inferidos.                                   |
 
-A consulta foi feita com Firecrawl Search, incluindo a busca `site:instagram.com/escola_meus_primeiros_passos/`. A leitura direta com Firecrawl Scrape foi recusada pelo provedor por se tratar de site não suportado. A pesquisa web complementar não retornou resultados úteis. Foram descartados perfis `@escolaempp`, páginas de Salvador e de Saúde/BA: não há vínculo comprovado com o perfil fornecido.
+A primeira consulta foi feita com pesquisa pública indexada; uma investigação posterior encontrou mídias servidas nos embeds públicos das publicações do perfil exato da escola. Os arquivos selecionados foram convertidos para WebP e registrados em inventário local. Foram descartados perfis `@escolaempp`, páginas de Salvador e de Saúde/BA: não há vínculo comprovado com o perfil fornecido.
 
 ## Pendências de confirmação
 
@@ -23,15 +23,23 @@ A consulta foi feita com Firecrawl Search, incluindo a busca `site:instagram.com
 - História institucional, equipe, documentos pedagógicos, metodologia e características dos espaços.
 - Logotipo oficial, manual de marca e paleta institucional. O símbolo de dois caminhos/portais, cores e tipografia são uma proposta provisória, sem reivindicação de identidade oficial.
 - Aprovação da redação editorial. Imaginar, explorar e conviver são temas conceituais, não serviços ou métodos afirmados.
-- Fotografias originais, autoria, permissão para reprodução e autorização de imagem. Não se deve inferir licença ou consentimento de uma publicação pública.
+- Confirmar com a instituição a disponibilidade de arquivos originais de maior qualidade e os termos de uso final. O solicitante informou autorização institucional para o projeto, mas autorizações individuais de imagem de pessoas identificáveis, especialmente crianças, devem ser confirmadas antes de divulgação pública.
 
 ## Imagens e direitos
 
-**Nenhuma fotografia real da instituição foi obtida com acesso e autorização verificáveis. Nenhuma fotografia de criança foi incorporada.** Não se copiaram fotos da Escola Peralta, nem se utilizaram imagens genéricas como se fossem da nova escola. Não há hotlinks do Instagram.
+**Fotografias reais de publicações públicas da instituição foram incorporadas.** Há nove arquivos WebP principais, com versões menores, em `public/assets/school/`. A galeria institucional exibe seis; outros três apoiam o hero e a seção de descobertas. A origem, o slide, os recortes e o contexto estão em `public/assets/school/inventory.json`. Não há hotlinks, fotografias da Escola Peralta ou imagens genéricas apresentadas como sendo da escola.
 
 As ilustrações SVG são autorais, produzidas em código em `src/components/Illustration.tsx`, com legenda conceitual. Não representam os espaços reais. O símbolo em `Brand.tsx` e o favicon são criações provisórias para a proposta. Os arquivos de fontes ficam em `public/fonts`, com licenças OFL.
 
-Reservar os futuros arquivos autorizados em `public/assets/school/`, registrar fonte, autoria, autorização, escopo e prazo em inventário, gerar WebP/AVIF com tamanhos responsivos e revisar os recortes. Fotografias identificáveis de crianças exigem confirmação expressa do direito de uso para o site e o PDF antes da publicação. Os originais não devem entrar no repositório sem necessidade.
+Para qualquer imagem adicional, registrar fonte, autoria, autorização e escopo no inventário, gerar formatos responsivos e revisar os recortes. O responsável pelo projeto informou que possui autorização institucional para uso do material; isso não substitui a conferência das autorizações individuais das pessoas identificáveis, sobretudo crianças, antes de publicar o site ou o PDF. Evitar subir originais ao repositório sem necessidade.
+
+### Publicações de origem confirmadas
+
+- Semana Maluca: https://www.instagram.com/p/DeeZjW_IN4A/ — colagens, cabelo criativo e mochilas.
+- Corrida do Dia dos Pais: https://www.instagram.com/p/DcHT8nZCUxI/ — crianças e famílias em atividade.
+- Atividade Cor Azul, Infantil I: https://www.instagram.com/p/DJ6myLjgebw/ — capa indexada.
+
+**Ainda pendente:** confirmação de logotipo/manual de marca, endereço exato, contatos adicionais e liberação das imagens para distribuição pública.
 
 ## Dados demonstrativos
 

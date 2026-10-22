@@ -356,3 +356,37 @@
 /* Small text needs stronger ink on the coral field. */
 .stage.infant, .contact-section { color: #192631; }
 .story-section :focus-visible, .stage.fundamental :focus-visible { outline-color: var(--yellow); }
+
+
+/* Acabamento editorial e acessibilidade: pequenos textos e alvos de toque legíveis. */
+.site .desktop-nav { font-size: 14px; }
+.site .text-link { font-size: 15px; }
+.site .hero-location { font-size: 13px; }
+.gallery-filters button { min-height: 44px; }
+.photo-print .print-caption { font-size: 14px; line-height: 1.45; }
+.photo-credit, .photo-credit a { font-size: 13px !important; }
+.site .stage a { font-size: 13px; }
+.site-footer .footer-top nav { font-size: 13px; }
+.site-footer .footer-bottom { font-size: 12px; }
+/* O painel coral tem contraste seguro inclusive nos textos menores. */
+.stage.infant, .contact-section { color: #14202c; }
+.site .contact-button { color: #14202c; }
+.motion-control { min-width: 130px; justify-content: flex-end; }
+.photo-dialog .icon-btn:focus-visible { outline: 3px solid var(--violet); outline-offset: 3px; }
+@media (max-width: 600px) {
+  .site .text-link { font-size: 14px; }
+  .site .hero-location { font-size: 12px; }
+  .photo-print .print-caption { font-size: 12px; }
+  .photo-credit, .photo-credit a { font-size: 12px !important; }
+  .site .stage a { font-size: 12px; }
+  .motion-control { min-width: 110px; font-size: 11px; }
+}
+@media (max-width: 430px) {
+  .photo-wall { grid-template-columns: 1fr; gap: 29px; padding-inline: 12px; }
+  .photo-print { width: min(90%, 340px); margin-top: 0 !important; rotate: -3deg; justify-self: start; }
+  .photo-print:nth-child(even) { justify-self: end; rotate: 3deg; }
+  .photo-print img { max-height: 420px; object-fit: cover; }
+  .photo-print .photo-contain { object-fit: contain; }
+  .site .hero-actions .button { min-height: 48px; }
+  .site .contact-button { max-width: 100%; }
+}

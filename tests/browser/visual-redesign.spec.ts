@@ -9,7 +9,7 @@ test('galeria filtra, navega por teclado e devolve o foco', async ({ page }) => 
   await opener.click();
   await expect(page.getByRole('dialog')).toBeVisible();
   await page.keyboard.press('ArrowRight');
-  await expect(page.locator('#photo-title')).toHaveText('Memórias cheias de carinho');
+  await expect(page.locator('#photo-title')).toHaveText('Criar é uma aventura');
   await page.keyboard.press('ArrowLeft');
   await expect(page.locator('#photo-title')).toHaveText('A imaginação ganhou vida');
   const audit = await new AxeBuilder({ page }).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();
@@ -30,10 +30,15 @@ test('fotografias locais carregam e movimento pode ser interrompido', async ({ p
   await expect(page.getByRole('button', { name: 'Retomar movimento' })).toHaveAttribute('aria-pressed', 'true');
   expect(await page.locator('.hero-word').first().evaluate(el => getComputedStyle(el).opacity)).toBe('1');
   await page.locator('img').evaluateAll(async images => {
-    for (const image of images) image.loading = 'eager';
-    await Promise.all(images.map(image => image.decode()));
+    const photos = images as HTMLImageElement[];
+    for (const image of photos) image.loading = 'eager';
+    await Promise.all(photos.map(image => image.decode()));
   });
-  expect(await page.locator('img').evaluateAll(images => images.every(i => i.naturalWidth > 0 && i.currentSrc.includes('/assets/school/')))).toBe(true);
+  expect(await page.locator('img').evaluateAll(images =>
+    (images as HTMLImageElement[]).every(i =>
+      i.naturalWidth > 0 && i.currentSrc.includes('/assets/school/')
+    )
+  )).toBe(true);
   await page.getByRole('button', { name: 'Retomar movimento' }).click();
   await page.waitForTimeout(1100);
   expect(await page.evaluate(() => document.getAnimations().some(a => a.playState === 'running'))).toBe(true);

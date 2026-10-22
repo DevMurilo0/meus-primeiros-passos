@@ -25,7 +25,7 @@ Para testes de navegador, instale o Chromium com `npx playwright install chromiu
 
 ## O que explorar
 
-- Institucional: hero ilustrado, narrativa, seletor de descobertas, etapas, comunidade, perguntas e contato pelo perfil informado.
+- Institucional: hero fotográfico com colagem, tipografia cinética, faixa animada, galeria filtrável com ampliação, momentos da escola, etapas, comunidade, perguntas e contato pelo Instagram.
 - Portal: painel com indicadores derivados dos fixtures, turmas e detalhes, pesquisa de alunos e modal individual, quatro períodos, notas editáveis com validação e média, chamada por data, atividades e criação/conclusão local.
 - Dados fictícios ficam em memória: salvar preserva durante a navegação; recarregar reinicia. Rascunhos não salvos devem ser salvos antes de trocar os filtros.
 - Menu mobile, atalhos, notificações ilustrativas, perfis, estados vazios, feedback e reinício da demonstração.
@@ -43,4 +43,9 @@ A Escola Peralta foi lida como referência técnica e permaneceu intacta. Foram 
 - [Direção visual](DESIGN.md)
 - [Capturas desktop e mobile](docs/apresentacao/)
 
-Não foi possível obter fotos reais com autorização de uso. Ilustrações SVG autorais são identificadas como conceituais. Marca provisória. Fontes Fraunces e Manrope locais, licenciadas em OFL. Nenhum dado real de aluno ou professor.
+Fotografias de publicações públicas da instituição foram incorporadas localmente em WebP; origens, recortes e necessidade de validar as autorizações individuais antes de divulgação pública estão no inventário `public/assets/school/inventory.json`. A identidade gráfica permanece uma proposta independente, ainda não homologada pela escola. A tipografia principal da homepage é Red Hat Display, com Manrope para leitura; há também Fraunces no projeto. Nenhum dado real de aluno ou professor é utilizado no portal.
+
+
+## Verificação contínua e capturas
+
+O fluxo do GitHub Actions em `.github/workflows/quality.yml` instala dependências, executa checagens e publica um artefato com capturas de desktop/mobile. As imagens antigas de `docs/apresentacao/` são registros anteriores à reformulação; o material atualizado fica no artefato da execução até ser revisado e integrado ao repositório. O workflow não faz deploy nem altera sistemas externos.

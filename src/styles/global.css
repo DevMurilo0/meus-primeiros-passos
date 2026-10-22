@@ -421,3 +421,8 @@ summary:focus-visible {
     transform: none;
   }
 }
+
+/* Restored visibility and focus for animated/editorial surfaces. */
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] { opacity: 1 !important; clip-path: none !important; translate: none !important; transform: none !important; }
+}
