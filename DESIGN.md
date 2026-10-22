@@ -69,3 +69,15 @@ Conferir desktop e mobile, foco, contraste, navegação por teclado, testes do p
 ## Rodapé cromático
 
 O rodapé termina em três campos de cor: localização turquesa com mapa, faixa amarela de palavras e núcleo azul-petróleo com logo oficial, headline editorial, navegação e contato. A linha de autoria de Murilo Gabriel permanece com link ao portfólio. Foi retirada a frase “Proposta de experiência digital · apresentação independente” da interface e configuração, sem alterar a natureza demonstrativa documentada do projeto.
+
+
+## Fotografia cinética — entradas por capítulo (outubro/2026)
+
+- A fotografia na seção **“Amor no começo”** usa entrada `bloom` com deslocamento lateral, rotação e máscara vertical suave.
+- **Descobertas** usa `rise` na primeira aparição; na troca entre abas mantém sua transição de imagens local sem reanimar toda a seção.
+- **Comunidade** usa `swing`, com movimento editorial lateral em sintonia com o ângulo do quadro.
+- **Galeria** usa `cascade`, com delays curtos escalonados a cada coluna; filtros dinâmicos são observados automaticamente.
+- **ExplorePaths** usa `lift`; a troca de fotografia após clicar mantém feedback próprio.
+- O **hero** conserva as molduras originais e ganha uma revelação fotográfica em duas camadas dentro delas, preservando o carregamento prioritário.
+- Todas as imagens recebem hover de profundidade somente com ponteiro fino; o lightbox ganha entrada rápida com escala e foco.
+- Coreografia coordenada em `SiteMotion.tsx` (IntersectionObserver e Web Animations API), sem nova biblioteca. Fotos continuam visíveis sem JavaScript, com pausa e `prefers-reduced-motion` desligando movimento.

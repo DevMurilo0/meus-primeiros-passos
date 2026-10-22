@@ -55,7 +55,7 @@ export function ExplorePaths() {
           </button>)}
         </div>
       </div>
-      <div className="explore-card" data-reveal="photo">
+      <div className="explore-card" data-photo-motion="lift">
         <div className="explore-art"><Flower className="explore-flower"/></div>
         <figure key={active.photo} className="explore-frame"><SchoolPhoto id={active.photo} alt={active.alt}/></figure>
         <div className="explore-card-content" key={active.title}>

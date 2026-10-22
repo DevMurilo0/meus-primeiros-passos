@@ -694,3 +694,72 @@
 /* Contraste AA verificado para textos pequenos sobre turquesa e azul profundo. */
 .footer-visit-band .address-source { color: #10252d; }
 .footer-bottom-band .developer-credit > .developer-credit-copy { color: var(--paper); }
+
+
+/* Motion editorial para imagens: a entrada é orquestrada em SiteMotion.tsx.
+   Diferentes capítulos têm diferentes gestos, sem esconder o conteúdo por CSS. */
+.site [data-photo-motion] { backface-visibility: hidden; }
+.site [data-photo-motion] .school-photo {
+  transition: transform .72s cubic-bezier(.16,1,.3,1), filter .72s ease;
+  transform-origin: center center;
+}
+.site .story-visual { isolation: isolate; }
+.site .story-visual .school-photo { transform-origin: 48% 40%; }
+.site .community-photo { isolation: isolate; }
+.site .community-photo .school-photo { transform-origin: 50% 45%; }
+.site .photo-print .school-photo { transform-origin: 48% 40%; }
+.site .discovery-picture .discovery-image .school-photo { transform-origin: center; }
+.site .explore-frame { overflow: hidden; }
+.site .explore-frame .school-photo { transform-origin: center; }
+.site .hero-main-photo { isolation: isolate; }
+.site .hero-main-photo .school-photo {
+  animation: hero-photograph-unfold 1.25s .32s cubic-bezier(.16,1,.3,1) both;
+  transform-origin: 50% 40%;
+  transition: transform .9s cubic-bezier(.16,1,.3,1);
+}
+.site .hero-small-photo { isolation: isolate; }
+.site .hero-small-photo .school-photo {
+  animation: hero-photograph-unfold 1.2s .56s cubic-bezier(.16,1,.3,1) both;
+  transform-origin: center;
+  transition: transform .9s cubic-bezier(.16,1,.3,1);
+}
+@keyframes hero-photograph-unfold {
+  from { opacity: .5; filter: blur(3px); clip-path: inset(0 0 25% 0); transform: scale(1.115) translateY(16px); }
+  to { opacity: 1; filter: none; clip-path: inset(0); transform: scale(1); }
+}
+/* A interação com fotos é opcional e apenas em dispositivos com ponteiro. */
+@media (hover: hover) and (pointer: fine) {
+  .site .story-visual:hover .school-photo,
+  .site .community-photo:hover .school-photo,
+  .site .photo-print:hover .school-photo { transform: scale(1.055); }
+  .site .discovery-picture:hover .school-photo,
+  .site .explore-card:hover .school-photo { transform: scale(1.04); }
+  .site .hero-main-photo:hover .school-photo,
+  .site .hero-small-photo:hover .school-photo { transform: scale(1.04); }
+}
+.site .photo-dialog .expanded-photo { animation: gallery-lightbox-unfold .48s cubic-bezier(.16,1,.3,1) both; }
+@keyframes gallery-lightbox-unfold {
+  from { opacity: .45; transform: translateY(14px) scale(.97); filter: blur(2px); }
+  to { opacity: 1; transform: none; filter: none; }
+}
+.motion-paused .school-photo, .motion-paused .expanded-photo {
+  animation: none !important;
+  transition: none !important;
+  clip-path: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  .site [data-photo-motion] .school-photo,
+  .site .hero-main-photo .school-photo,
+  .site .hero-small-photo .school-photo,
+  .site .photo-dialog .expanded-photo {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+    clip-path: none !important;
+    filter: none !important;
+    opacity: 1 !important;
+  }
+}

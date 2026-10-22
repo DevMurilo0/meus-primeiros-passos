@@ -49,3 +49,32 @@ test('fotografias locais carregam e movimento pode ser interrompido', async ({ p
   expect(await page.evaluate(() => document.getAnimations().filter(a => a.playState === 'running').length)).toBe(0);
   expect(errors).toEqual([]);
 });
+
+
+test('entrada editorial de fotos ocorre uma vez e preserva movimentos reduzidos', async ({ page }) => {
+  await page.emulateMedia({ reducedMotion: 'no-preference' });
+  await page.goto('/');
+  const story = page.locator('.story-visual');
+  const community = page.locator('.community-photo');
+  const gallery = page.locator('.photo-print').first();
+  const discovery = page.locator('.discovery-picture');
+  const explore = page.locator('.explore-card');
+
+  await expect(story).toHaveAttribute('data-photo-motion', 'bloom');
+  await expect(community).toHaveAttribute('data-photo-motion', 'swing');
+  await expect(gallery).toHaveAttribute('data-photo-motion', 'cascade');
+  await expect(discovery).toHaveAttribute('data-photo-motion', 'rise');
+  await expect(explore).toHaveAttribute('data-photo-motion', 'lift');
+
+  await story.scrollIntoViewIfNeeded();
+  await expect(story).toHaveAttribute('data-photo-seen', 'true');
+  await gallery.scrollIntoViewIfNeeded();
+  await expect(gallery).toHaveAttribute('data-photo-seen', 'true');
+  await page.getByRole('button', { name: 'Pausar movimento' }).click();
+  await expect(page.locator('.motion-paused')).toHaveCount(1);
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await page.getByRole('button', { name: 'Retomar movimento' }).click();
+  await page.waitForTimeout(100);
+  expect(await story.evaluate(el => getComputedStyle(el.querySelector('img')!).opacity)).toBe('1');
+  expect(await page.evaluate(() => document.getAnimations().filter(a => a.playState === 'running').length)).toBe(0);
+});
