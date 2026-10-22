@@ -38,3 +38,13 @@ test('menu principal mantém destinos e hover visível', async ({ page }) => {
   await expect(link).toHaveCSS('text-decoration-line', 'none');
   await expect(nav.getByRole('link', { name: 'Onde estamos' })).toHaveAttribute('href', '#localizacao');
 });
+
+test('novo rodapé colorido remove o texto antigo e mantém destinos reais', async ({ page }) => {
+  await page.goto('/');
+  const footer = page.locator('footer');
+  await expect(footer).not.toContainText('Proposta de experiência digital');
+  await expect(footer.getByText(/Todo grande sonho/)).toBeVisible();
+  await expect(footer.getByRole('navigation', { name: 'Links do rodapé' }).getByRole('link')).toHaveCount(5);
+  await expect(footer.getByRole('link', { name: /Nos acompanhe no Instagram/ })).toHaveAttribute('href', /instagram.com\/escola_meus_primeiros_passos/);
+  await expect(footer.locator('.footer-core')).toHaveCSS('background-color','rgb(36, 49, 61)');
+});

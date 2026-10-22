@@ -69,21 +69,62 @@ export default function Home() {
       <section className="faq-section wrap"><h2 data-reveal>Antes do<br/><em>primeiro passo.</em></h2><div className="faq-list">{questions.map((q,i) => <article key={q.question} className={question === i ? 'faq-open' : ''}><h3><button aria-expanded={question === i} aria-controls={question === i ? `faq-${i}` : undefined} onClick={() => setQuestion(question === i ? null : i)}>{q.question}{question === i ? <Minus size={21}/> : <Plus size={21}/>}</button></h3>{question === i && <p id={`faq-${i}`}>{q.answer}</p>}</article>)}</div></section>
       <section id="contato" className="contact-section"><div className="wrap contact-layout"><Flower className="contact-flower"/><h2 data-reveal>O próximo passo<br/><em>começa com um oi.</em></h2><div className="contact-bottom"><p>Vamos conhecer essa história de perto?<br/>Converse com a escola pelo Instagram.</p><a className="button contact-button" data-magnetic href={school.instagram} target="_blank" rel="noreferrer">Diga oi para a escola <ArrowUpRight size={24}/></a></div><Trail className="contact-trail"/></div></section>
     </main>
-    <footer className="site-footer wrap">
-      <section id="localizacao" className="footer-visit" aria-labelledby="visit-heading">
-        <div className="footer-visit-info">
-          <span className="footer-eyebrow"><MapPin size={17}/> Nosso cantinho em Gravatá</span>
-          <h2 id="visit-heading">A próxima descoberta<br/><em>fica logo ali.</em></h2>
-          <p>Um lugar para aprender, brincar e criar histórias. Veja onde fica a Escola Meus Primeiros Passos.</p>
-          <address>{school.address}</address>
-          <a className="map-route" href={school.mapsUrl} target="_blank" rel="noopener noreferrer">Ver localização no Google Maps <Navigation2 size={18}/></a>
-          <small className="address-source">Endereço de diretórios públicos; confirme com a escola antes da visita.</small>
-          <div className="footer-visit-sticker" aria-hidden="true"><Heart size={26}/><span>Vem conhecer!</span></div>
+    <footer className="site-footer">
+      <div className="footer-visit-band">
+        <section id="localizacao" className="footer-visit wrap" aria-labelledby="visit-heading">
+          <div className="footer-visit-info">
+            <span className="footer-eyebrow"><MapPin size={18}/> Nosso cantinho em Gravatá</span>
+            <h2 id="visit-heading">A próxima descoberta<br/><em>fica logo ali.</em></h2>
+            <p>Um lugar para aprender, brincar e criar histórias. Veja onde fica a Escola Meus Primeiros Passos.</p>
+            <address>{school.address}</address>
+            <a className="map-route" href={school.mapsUrl} target="_blank" rel="noopener noreferrer">Ver localização no Google Maps <Navigation2 size={18}/></a>
+            <small className="address-source">Endereço de diretórios públicos; confirme com a escola antes da visita.</small>
+            <div className="footer-visit-sticker" aria-hidden="true"><Heart size={26}/><span>Vem conhecer!</span></div>
+          </div>
+          <SchoolMap/>
+          <Flower className="footer-map-flower"/>
+        </section>
+      </div>
+      <div className="footer-ribbon" aria-hidden="true"><div className="footer-ribbon-track">
+        {[0,1,2,3].map(i=><span key={i}>imaginar <b>✳</b> aprender <b>✳</b> crescer <b>✳</b> descobrir <b>✳</b></span>)}
+      </div></div>
+      <div className="footer-core">
+        <div className="wrap">
+          <div className="footer-intro-line"><span>COM CARINHO, DE GRAVATÁ PARA O MUNDO</span><Flower className="footer-intro-flower"/></div>
+          <p className="footer-statement">Todo grande sonho<br/><em>começa com um passo.</em></p>
+          <div className="footer-main-grid">
+            <div className="footer-identity">
+              <div className="footer-logo-panel"><Brand/></div>
+              <p>{school.positioning}<br/>Uma história de descobertas que começa aqui.</p>
+              <div className="footer-education"><span>Educação Infantil</span><span>Ensino Fundamental · 1º ao 5º ano</span></div>
+            </div>
+            <nav className="footer-links" aria-label="Links do rodapé">
+              <h2>Explore</h2>
+              <a href="#escola">Nossa escola <ArrowUpRight size={18}/></a>
+              <a href="#descobertas">Descobertas <ArrowUpRight size={18}/></a>
+              <a href="#momentos">Nossos momentos <ArrowUpRight size={18}/></a>
+              <a href="#localizacao">Onde estamos <ArrowUpRight size={18}/></a>
+              <Link to="/portal">Portal do Professor <ArrowUpRight size={18}/></Link>
+            </nav>
+            <div className="footer-connect">
+              <h2>Vamos conversar?</h2>
+              <p>Acompanhe os momentos da escola e converse com a equipe pelo Instagram.</p>
+              <a className="footer-social-link" href={school.instagram} target="_blank" rel="noopener noreferrer">
+                <span className="footer-social-icon"><Instagram size={22}/></span>
+                <span>Nos acompanhe no Instagram<small>@escola_meus_primeiros_passos</small></span>
+                <ArrowUpRight size={22}/>
+              </a>
+              <a className="footer-directions" href={school.mapsUrl} target="_blank" rel="noopener noreferrer"><MapPin size={18}/> Como chegar <ArrowUpRight size={18}/></a>
+            </div>
+          </div>
         </div>
-        <SchoolMap/>
-      </section>
-      <div className="footer-top"><Brand/><p>{school.positioning}<br/><span>{school.location}</span></p><nav aria-label="Links do rodapé"><a href={school.instagram} target="_blank" rel="noreferrer">Instagram <ArrowUpRight size={16}/></a><Link to="/portal">Portal do Professor <ArrowUpRight size={16}/></Link><a href="#localizacao">Nossa localização <MapPin size={16}/></a><a href="#main">Voltar ao início <ArrowUpRight size={16}/></a></nav></div>
-      <div className="footer-bottom"><span>{school.proposal}</span><a className="developer-credit" href="https://murilogabriel.com.br" target="_blank" rel="noopener noreferrer"><span className="developer-credit-copy">Desenvolvido por <strong>Murilo Gabriel</strong><small>murilogabriel.com.br</small></span><MoveUpRight size={17}/></a></div>
+      </div>
+      <div className="footer-bottom-band"><div className="wrap footer-bottom">
+        <span>Escola Meus Primeiros Passos <b aria-hidden="true">✳</b> {school.location}</span>
+        <a className="developer-credit" href="https://murilogabriel.com.br" target="_blank" rel="noopener noreferrer">
+          <span className="developer-credit-copy">Desenvolvido por <strong>Murilo Gabriel</strong><small>murilogabriel.com.br</small></span><MoveUpRight size={18}/>
+        </a>
+      </div></div>
     </footer>
   </div></SiteMotion>;
 }

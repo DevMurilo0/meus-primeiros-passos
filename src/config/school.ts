@@ -11,7 +11,6 @@ export const school = {
   mapsEmbedUrl: "https://maps.google.com/maps?q=Escola%20Meus%20Primeiros%20Passos%20Gravata%20PE&z=16&output=embed",
   phone: null,
   email: null,
-  proposal: "Proposta de experiência digital · apresentação independente",
 };
 export const discoveries = [
   {

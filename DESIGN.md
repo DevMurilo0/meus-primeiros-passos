@@ -64,3 +64,8 @@ Conferir desktop e mobile, foco, contraste, navegação por teclado, testes do p
 - Crédito de desenvolvimento ligado ao portfólio de Murilo Gabriel.
 
 - O componente `SchoolMap.tsx` oferece uma prévia cartográfica **abstrata e declaradamente sem escala** que funciona sem conexão; um clique ativa o mapa Google incorporado. Mantém o link direto para o serviço caso o iframe seja bloqueado. O componente não inventa um ponto geográfico exato.
+
+
+## Rodapé cromático
+
+O rodapé termina em três campos de cor: localização turquesa com mapa, faixa amarela de palavras e núcleo azul-petróleo com logo oficial, headline editorial, navegação e contato. A linha de autoria de Murilo Gabriel permanece com link ao portfólio. Foi retirada a frase “Proposta de experiência digital · apresentação independente” da interface e configuração, sem alterar a natureza demonstrativa documentada do projeto.
