@@ -129,7 +129,8 @@ function Grades({ classId, term }: { classId: string; term: number }) {
         </div>
         <span className="status-pill neutral">{rows.length} alunos</span>
       </div>
-      <div className="table-scroll">
+      <p className="table-swipe-hint">Deslize para ver avaliação, média e registro <span aria-hidden="true">→</span></p>
+      <div className="table-scroll" role="region" aria-label="Tabela de notas com rolagem horizontal" tabIndex={0}>
         <table className="grades-table">
           <thead>
             <tr>

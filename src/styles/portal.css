@@ -2692,3 +2692,22 @@ td:first-child {
 }
 @media (max-width: 760px) { .portal-app h1 { font-size: 28px; } }
 @media (prefers-reduced-motion: reduce) { .portal-app .page-heading { animation: none; } }
+
+/* Descoberta do scroll da tabela de notas em telas menores. */
+.table-swipe-hint { display: none; }
+.table-scroll:focus-visible { outline: 3px solid var(--violet); outline-offset: -3px; }
+@media (max-width: 760px) {
+  .table-swipe-hint {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 8px 16px 12px;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #465065;
+    background: #fafbf7;
+  }
+  .table-swipe-hint span { font-weight: 800; color: var(--green); }
+}
