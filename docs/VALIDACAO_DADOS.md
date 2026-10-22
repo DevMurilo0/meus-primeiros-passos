@@ -21,7 +21,7 @@ A primeira consulta foi feita com pesquisa pública indexada; uma investigação
 - Razão social, endereço completo, telefone, e-mail, responsáveis e canais adicionais.
 - Etapas efetivamente oferecidas no período de implantação, idades, horários, vagas e serviços.
 - História institucional, equipe, documentos pedagógicos, metodologia e características dos espaços.
-- Logotipo oficial, manual de marca e paleta institucional. O símbolo de dois caminhos/portais, cores e tipografia são uma proposta provisória, sem reivindicação de identidade oficial.
+- O logotipo foi fornecido diretamente pelo solicitante e está incorporado em `public/assets/brand/logo-mpp.png`. Permanecem pendentes um manual de marca, versão vetorial/alta resolução e confirmação da paleta e tipografia institucionais. A composição do site segue sendo uma proposta visual independente.
 - Aprovação da redação editorial. Imaginar, explorar e conviver são temas conceituais, não serviços ou métodos afirmados.
 - Confirmar com a instituição a disponibilidade de arquivos originais de maior qualidade e os termos de uso final. O solicitante informou autorização institucional para o projeto, mas autorizações individuais de imagem de pessoas identificáveis, especialmente crianças, devem ser confirmadas antes de divulgação pública.
 

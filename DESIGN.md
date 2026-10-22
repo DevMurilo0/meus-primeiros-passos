@@ -1,6 +1,10 @@
 # Direção visual — álbum de primeiros passos
 
-**Status:** identidade gráfica de proposta comercial independente, **não** marca homologada da Escola Meus Primeiros Passos.
+**Status:** proposta comercial independente, com **logotipo institucional fornecido pelo solicitante**. A composição, a tipografia e a paleta desta apresentação ainda são conceitos visuais, não um manual de marca homologado pela escola.
+
+## Identidade institucional
+
+A marca visual fornecida pelo solicitante foi preparada com transparência e incorporada como `public/assets/brand/logo-mpp.png`. `Brand.tsx` reaproveita essa imagem na navegação institucional, no rodapé, na entrada e na barra lateral do Portal do Professor. A versão colorida recebe uma pequena base creme na entrada violeta para legibilidade; o favicon usa o mesmo arquivo. Não foram recriados elementos da logo nem alteradas cores oficiais.
 
 ## Conceito
 

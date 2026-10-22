@@ -426,3 +426,16 @@ summary:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   [data-reveal] { opacity: 1 !important; clip-path: none !important; translate: none !important; transform: none !important; }
 }
+
+/* Identidade da Escola Meus Primeiros Passos: imagem da marca oficial enviada. */
+.brand-logo {
+  display: block;
+  width: 124px;
+  height: auto;
+  aspect-ratio: 130 / 107;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+@media (max-width: 600px) {
+  .brand-logo { width: 104px; }
+}

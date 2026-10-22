@@ -408,3 +408,11 @@
 @media (max-width: 600px) {
   .hero-photo-note { max-width: 140px; bottom: 52px; right: 0; }
 }
+
+/* Marca da escola: valorizada sem alterar a composição fotográfica aprovada. */
+.site-header .brand-logo { width: 126px; }
+.site-footer .brand-logo { width: 150px; }
+@media (max-width: 600px) {
+  .site-header .brand-logo { width: 103px; }
+  .site-footer .brand-logo { width: 143px; }
+}

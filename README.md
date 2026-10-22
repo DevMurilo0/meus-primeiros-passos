@@ -43,7 +43,7 @@ A Escola Peralta foi lida como referência técnica e permaneceu intacta. Foram 
 - [Direção visual](DESIGN.md)
 - [Capturas desktop e mobile](docs/apresentacao/)
 
-Fotografias de publicações públicas da instituição foram incorporadas localmente em WebP; origens, recortes e necessidade de validar as autorizações individuais antes de divulgação pública estão no inventário `public/assets/school/inventory.json`. A identidade gráfica permanece uma proposta independente, ainda não homologada pela escola. A tipografia principal da homepage é Red Hat Display, com Manrope para leitura; há também Fraunces no projeto. Nenhum dado real de aluno ou professor é utilizado no portal.
+Fotografias de publicações públicas da instituição foram incorporadas localmente em WebP; origens, recortes e necessidade de validar as autorizações individuais antes de divulgação pública estão no inventário `public/assets/school/inventory.json`. A marca exibida no cabeçalho, no rodapé, no Portal do Professor e no favicon usa o logotipo fornecido diretamente pelo solicitante; o arquivo transparente otimizado está em `public/assets/brand/logo-mpp.png`. A composição visual do site continua sendo uma proposta independente. A tipografia principal da homepage é Red Hat Display, com Manrope para leitura; há também Fraunces no projeto. Nenhum dado real de aluno ou professor é utilizado no portal.
 
 
 ## Verificação contínua e capturas
