@@ -390,3 +390,21 @@
   .site .hero-actions .button { min-height: 48px; }
   .site .contact-button { max-width: 100%; }
 }
+
+/* Crédito editorial posicionado à frente das trilhas, sem sobreposição de letras. */
+.hero-photo-note {
+  width: auto;
+  max-width: 180px;
+  right: 0;
+  bottom: 66px;
+  z-index: 6;
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: var(--paper);
+  box-shadow: 0 3px 0 rgb(36 49 61 / 7%);
+  line-height: 1.45;
+  rotate: -5deg;
+}
+@media (max-width: 600px) {
+  .hero-photo-note { max-width: 140px; bottom: 52px; right: 0; }
+}

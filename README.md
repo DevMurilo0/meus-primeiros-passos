@@ -48,4 +48,4 @@ Fotografias de publicações públicas da instituição foram incorporadas local
 
 ## Verificação contínua e capturas
 
-O fluxo do GitHub Actions em `.github/workflows/quality.yml` instala dependências, executa checagens e publica um artefato com capturas de desktop/mobile. As imagens antigas de `docs/apresentacao/` são registros anteriores à reformulação; o material atualizado fica no artefato da execução até ser revisado e integrado ao repositório. O workflow não faz deploy nem altera sistemas externos.
+O fluxo do GitHub Actions em `.github/workflows/quality.yml` instala dependências, executa checagens e publica um artefato com capturas de desktop/mobile. As imagens antigas de `docs/apresentacao/` são registros anteriores à reformulação; o fluxo automatizado gera `docs/apresentacao/atualizadas/` e, após testes aprovados, tenta versionar as capturas com um commit do GitHub Actions. As imagens também ficam disponíveis como artefatos do workflow. O workflow não faz deploy nem altera sistemas externos.
