@@ -81,8 +81,3 @@ O rodapé termina em três campos de cor: localização turquesa com mapa, faixa
 - O **hero** conserva as molduras originais e ganha uma revelação fotográfica em duas camadas dentro delas, preservando o carregamento prioritário.
 - Todas as imagens recebem hover de profundidade somente com ponteiro fino; o lightbox ganha entrada rápida com escala e foco.
 - Coreografia coordenada em `SiteMotion.tsx` (IntersectionObserver e Web Animations API), sem nova biblioteca. Fotos continuam visíveis sem JavaScript, com pausa e `prefers-reduced-motion` desligando movimento.
-
-
-## Caderno de capítulos — extensão da linguagem visual
-
-A Escola Meus Primeiros Passos tem registros documentados no inventário de mídias do perfil público, em especial a Corrida do Dia dos Pais e a Semana Maluca. A seção `MemoryChapters.tsx` reúne esses dois capítulos em um álbum editorial com fotos locais, duas camadas de recortes, furinhos de filme e textos de contexto **sem testemunhos inventados**. O usuário escolhe pelos nomes dos eventos ou por setas, e cada capítulo inclui o link da publicação original. A logo transparente cedida pelo solicitante aparece como selo na página do álbum, preservando proporções e legibilidade. As transições são coordenadas e desativadas em movimento reduzido. Não houve coleta nova de publicações: o Instagram bloqueou consulta externa nesta etapa; a fonte é o inventário existente em `public/assets/school/inventory.json`.
