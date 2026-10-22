@@ -84,7 +84,7 @@ export function SiteMotion({ children, paused = false }: { children: ReactNode; 
 
       const observeNode = (node: Element) => {
         if (!node.matches('[data-reveal], [data-photo-motion]')) return;
-        if (node.hasAttribute('data-photo-motion') ? node.dataset.photoSeen !== 'true' : node.dataset.revealSeen !== 'true') {
+        if (node.hasAttribute('data-photo-motion') ? node.getAttribute('data-photo-seen') !== 'true' : node.getAttribute('data-reveal-seen') !== 'true') {
           observer.observe(node);
         }
       };
