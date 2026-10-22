@@ -13,7 +13,7 @@ test('rodapé informa autoria, localização, mapa e rota real', async ({ page }
   await footer.getByRole('button', { name: 'Explorar mapa interativo' }).click();
   await expect(footer.getByTitle(/Mapa interativo da Escola/)).toHaveAttribute('src', /maps.google.com\/maps/);
   await expect(footer.getByRole('link', { name: /Abrir no Google Maps/ })).toHaveAttribute('href', /google.com\/maps\/search/);
-  await expect(page.getByRole('link', { name: 'Onde estamos' })).toBeVisible();
+  await expect(page.getByRole('navigation', { name: 'Navegação principal' }).getByRole('link', { name: 'Onde estamos' })).toBeVisible();
 });
 
 test('seletor muda conteúdo e destino, permitindo explorar o portal', async ({ page }) => {

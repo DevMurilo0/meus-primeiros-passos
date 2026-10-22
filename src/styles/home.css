@@ -690,3 +690,7 @@
   .footer-ribbon-track,.footer-map-flower { animation: none !important; }
   .footer-logo-panel,.footer-links a,.footer-links a svg,.footer-social-link { transition: none !important; }
 }
+
+/* Contraste AA verificado para textos pequenos sobre turquesa e azul profundo. */
+.footer-visit-band .address-source { color: #10252d; }
+.footer-bottom-band .developer-credit > .developer-credit-copy { color: var(--paper); }
