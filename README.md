@@ -49,3 +49,15 @@ Fotografias de publicações públicas da instituição foram incorporadas local
 ## Verificação contínua e capturas
 
 O fluxo do GitHub Actions em `.github/workflows/quality.yml` instala dependências, executa checagens e publica um artefato com capturas de desktop/mobile. As imagens antigas de `docs/apresentacao/` são registros anteriores à reformulação; o fluxo automatizado gera `docs/apresentacao/atualizadas/` e, após testes aprovados, tenta versionar as capturas com um commit do GitHub Actions. As imagens também ficam disponíveis como artefatos do workflow. O workflow não faz deploy nem altera sistemas externos.
+
+## Compartilhamento social — WhatsApp, Instagram, Facebook e outras redes
+
+A homepage disponibiliza metadados Open Graph e Twitter Card **estáticos**, escritos no `index.html` (e não após a renderização React). O cartão principal utiliza logo fornecida pelo responsável, cores do site e fotografia real autorizada da escola.
+
+- URL da página: `https://meus-primeiros-passos.vercel.app/`
+- Imagem pública: `https://meus-primeiros-passos.vercel.app/og-meus-primeiros-passos-2026.jpg`
+- Arquivo: `public/og-meus-primeiros-passos-2026.jpg` (1200 × 630, JPEG otimizado).
+- A arte é gerada com `python scripts/generate_social_preview.py` e requer Pillow. O workflow de qualidade a gera e, após os testes, versiona a imagem junto das capturas.
+- Para alterar título, descrição ou domínio, sincronizar `index.html` e o teste `tests/browser/social-preview.spec.ts`.
+- O campo `robots=noindex,nofollow` continua presente por se tratar de uma demonstração; não confundir com a configuração de compartilhamento.
+- O aplicativo de mensagens pode manter em cache uma prévia antiga. Ao trocar a arte no futuro, usar um novo nome de imagem para forçar atualização.
